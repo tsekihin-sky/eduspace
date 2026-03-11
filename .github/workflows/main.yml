@@ -1,7 +1,6 @@
 name: Build Unsigned iOS App
 
 env:
-  # This fixes the Node.js warning you saw earlier
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
 on:
@@ -17,15 +16,31 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v4
 
-    - name: See what files the Mac sees (Debugging)
-      run: ls -la
+    # Because there is a package.json, we might need Node.js to install JavaScript dependencies
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '20'
+
+    - name: Install NPM packages (if applicable)
+      run: |
+        # If package.json is in the main folder, install its packages
+        if [ -f "package.json" ]; then npm install; fi
+        # If it's inside the ios folder, we will install it there
+        if [ -f "ios/package.json" ]; then cd ios && npm install; fi
+
+    - name: Install iOS Pods (Dependencies)
+      run: |
+        cd ios
+        pod install
 
     - name: Build the iOS app (Unsigned)
       run: |
-        # Building the eduspace project
+        cd ios
+        # Notice we are using -workspace now, and the exact spelling!
         xcodebuild clean build \
-          -workspace "eduspace.xcworkspace" \
-          -scheme "eduspace" \
+          -workspace "EdUSpace.xcworkspace" \
+          -scheme "EdUSpace" \
           -sdk iphoneos \
           -configuration Release \
           CODE_SIGN_IDENTITY="" \
@@ -34,11 +49,9 @@ jobs:
           
     - name: Package the .ipa file
       run: |
-        # Find where Xcode hid the compiled .app file
         APP_PATH=$(find ~/Library/Developer/Xcode/DerivedData -name "*.app" | head -n 1)
         echo "Found app at $APP_PATH"
         
-        # Package it into the Payload folder to create the .ipa
         mkdir Payload
         cp -r "$APP_PATH" Payload/
         zip -qr app.ipa Payload
