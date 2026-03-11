@@ -16,7 +16,6 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v4
 
-    # Because there is a package.json, we might need Node.js to install JavaScript dependencies
     - name: Setup Node.js
       uses: actions/setup-node@v4
       with:
@@ -24,10 +23,13 @@ jobs:
 
     - name: Install NPM packages (if applicable)
       run: |
-        # If package.json is in the main folder, install its packages
         if [ -f "package.json" ]; then npm install; fi
-        # If it's inside the ios folder, we will install it there
         if [ -f "ios/package.json" ]; then cd ios && npm install; fi
+
+    - name: Fix Git Clone URLs for Pods
+      run: |
+        # This forces the Mac to use public HTTPS links instead of private SSH keys
+        git config --global url."https://github.com/".insteadOf "git@github.com:"
 
     - name: Install iOS Pods (Dependencies)
       run: |
@@ -37,7 +39,6 @@ jobs:
     - name: Build the iOS app (Unsigned)
       run: |
         cd ios
-        # Notice we are using -workspace now, and the exact spelling!
         xcodebuild clean build \
           -workspace "EdUSpace.xcworkspace" \
           -scheme "EdUSpace" \
