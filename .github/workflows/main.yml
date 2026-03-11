@@ -1,6 +1,8 @@
 name: Build Unsigned iOS App
 
-# This tells GitHub to run the script whenever you push code or click a manual button
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
 on:
   push:
     branches: [ "main" ] 
@@ -8,7 +10,6 @@ on:
 
 jobs:
   build:
-    # This is the magic part: renting a free Mac from GitHub
     runs-on: macos-latest
 
     steps:
@@ -17,10 +18,11 @@ jobs:
 
     - name: Build the iOS app (Unsigned)
       run: |
-        # IMPORTANT: Change "YourProject" to your actual project name!
+        cd ios
+        # We skip pod install because GoNative pre-packages them!
         xcodebuild clean build \
-          -project eduspace.xcodeproj \
-          -scheme eduspace \
+          -workspace "EdUSpace.xcworkspace" \
+          -scheme "EdUSpace" \
           -sdk iphoneos \
           -configuration Release \
           CODE_SIGN_IDENTITY="" \
@@ -29,11 +31,9 @@ jobs:
           
     - name: Package the .ipa file
       run: |
-        # Find where Xcode hid the compiled .app file
         APP_PATH=$(find ~/Library/Developer/Xcode/DerivedData -name "*.app" | head -n 1)
         echo "Found app at $APP_PATH"
         
-        # Package it exactly how Apple expects (the Payload folder trick)
         mkdir Payload
         cp -r "$APP_PATH" Payload/
         zip -qr app.ipa Payload
