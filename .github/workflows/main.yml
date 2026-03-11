@@ -16,25 +16,10 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v4
 
-    - name: Setup Node.js
-      uses: actions/setup-node@v4
-      with:
-        node-version: '20'
-
-    - name: Force HTTPS in Podfile
-      run: |
-        cd ios
-        # This command forcefully searches the Podfile and overwrites the private SSH link with a public HTTPS link
-        sed -i '' 's/git@github.com:/https:\/\/github.com\//g' Podfile
-
-    - name: Install iOS Pods (Dependencies)
-      run: |
-        cd ios
-        pod install
-
     - name: Build the iOS app (Unsigned)
       run: |
         cd ios
+        # We skip pod install because GoNative pre-packages them!
         xcodebuild clean build \
           -workspace "EdUSpace.xcworkspace" \
           -scheme "EdUSpace" \
