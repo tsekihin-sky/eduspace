@@ -1,4 +1,4 @@
-1name: Build Unsigned iOS App
+name: Build Unsigned iOS App
 
 env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
