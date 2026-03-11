@@ -1,6 +1,9 @@
 name: Build Unsigned iOS App
 
-# This tells GitHub to run the script whenever you push code or click a manual button
+env:
+  # This fixes the Node.js warning you saw earlier
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
 on:
   push:
     branches: [ "main" ] 
@@ -8,19 +11,21 @@ on:
 
 jobs:
   build:
-    # This is the magic part: renting a free Mac from GitHub
     runs-on: macos-latest
 
     steps:
     - name: Checkout code
       uses: actions/checkout@v4
 
+    - name: See what files the Mac sees (Debugging)
+      run: ls -la
+
     - name: Build the iOS app (Unsigned)
       run: |
-        # IMPORTANT: Change "YourProject" to your actual project name!
+        # Building the eduspace project
         xcodebuild clean build \
-          -project eduspace.xcodeproj \
-          -scheme eduspace \
+          -project "eduspace.xcodeproj" \
+          -scheme "eduspace" \
           -sdk iphoneos \
           -configuration Release \
           CODE_SIGN_IDENTITY="" \
@@ -33,7 +38,7 @@ jobs:
         APP_PATH=$(find ~/Library/Developer/Xcode/DerivedData -name "*.app" | head -n 1)
         echo "Found app at $APP_PATH"
         
-        # Package it exactly how Apple expects (the Payload folder trick)
+        # Package it into the Payload folder to create the .ipa
         mkdir Payload
         cp -r "$APP_PATH" Payload/
         zip -qr app.ipa Payload
