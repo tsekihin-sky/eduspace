@@ -24,7 +24,7 @@ jobs:
       run: |
         # Building the eduspace project
         xcodebuild clean build \
-          -project "eduspace.xcodeproj" \
+          -workspace "eduspace.xcworkspace" \
           -scheme "eduspace" \
           -sdk iphoneos \
           -configuration Release \
