@@ -1,0 +1,849 @@
+---
+triple:          'x86_64-apple-darwin'
+binary-path:     '/Users/runner/Library/Developer/Xcode/DerivedData/GoNativeCore-cisfyymyjbiskpghmgwreuybzrgk/Build/Intermediates.noindex/ArchiveIntermediates/GoNativeCore/InstallationBuildProductsLocation/Library/Frameworks/GoNativeCore.framework/GoNativeCore'
+relocations:
+  - { offset: 0x60931, size: 0x8, addend: 0x0, symName: _GoNativeCoreVersionString, symObjAddr: 0x0, symBinAddr: 0x28AF0, symSize: 0x0 }
+  - { offset: 0x60966, size: 0x8, addend: 0x0, symName: _GoNativeCoreVersionNumber, symObjAddr: 0x38, symBinAddr: 0x28B28, symSize: 0x0 }
+  - { offset: 0x609A3, size: 0x8, addend: 0x0, symName: _GNGetModuleClasses, symObjAddr: 0x0, symBinAddr: 0x19C0, symSize: 0xD4 }
+  - { offset: 0x609B1, size: 0x8, addend: 0x0, symName: _GNRegisterModule, symObjAddr: 0x15C, symBinAddr: 0x1B1C, symSize: 0x61 }
+  - { offset: 0x609D3, size: 0x8, addend: 0x0, symName: _GNRegisterModule.onceToken, symObjAddr: 0xC018, symBinAddr: 0x447C8, symSize: 0x0 }
+  - { offset: 0x60A40, size: 0x8, addend: 0x0, symName: _GNModuleClasses, symObjAddr: 0xC008, symBinAddr: 0x447B8, symSize: 0x0 }
+  - { offset: 0x60A5B, size: 0x8, addend: 0x0, symName: _GNModuleClassesSyncQueue, symObjAddr: 0xC010, symBinAddr: 0x447C0, symSize: 0x0 }
+  - { offset: 0x60AA7, size: 0x8, addend: 0x0, symName: _GNGetModuleClasses, symObjAddr: 0x0, symBinAddr: 0x19C0, symSize: 0xD4 }
+  - { offset: 0x60B2D, size: 0x8, addend: 0x0, symName: ___Block_byref_object_copy_, symObjAddr: 0xD4, symBinAddr: 0x1A94, symSize: 0x16 }
+  - { offset: 0x60B52, size: 0x8, addend: 0x0, symName: ___Block_byref_object_dispose_, symObjAddr: 0xEA, symBinAddr: 0x1AAA, symSize: 0xF }
+  - { offset: 0x60B7D, size: 0x8, addend: 0x0, symName: ___GNGetModuleClasses_block_invoke, symObjAddr: 0xF9, symBinAddr: 0x1AB9, symSize: 0x39 }
+  - { offset: 0x60BD0, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32r, symObjAddr: 0x132, symBinAddr: 0x1AF2, symSize: 0x17 }
+  - { offset: 0x60BF9, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32r, symObjAddr: 0x149, symBinAddr: 0x1B09, symSize: 0x13 }
+  - { offset: 0x60C53, size: 0x8, addend: 0x0, symName: _GNRegisterModule.cold.1, symObjAddr: 0x2B3B, symBinAddr: 0x2627F, symSize: 0x18 }
+  - { offset: 0x60C81, size: 0x8, addend: 0x0, symName: ___GNRegisterModule_block_invoke, symObjAddr: 0x1BD, symBinAddr: 0x1B7D, symSize: 0x55 }
+  - { offset: 0x60CF0, size: 0x8, addend: 0x0, symName: ___GNRegisterModule_block_invoke_2, symObjAddr: 0x212, symBinAddr: 0x1BD2, symSize: 0x20 }
+  - { offset: 0x60D37, size: 0x8, addend: 0x0, symName: '-[GNBridge init]', symObjAddr: 0x232, symBinAddr: 0x1BF2, symSize: 0x4C }
+  - { offset: 0x60D82, size: 0x8, addend: 0x0, symName: '-[GNBridge setUp]', symObjAddr: 0x27E, symBinAddr: 0x1C3E, symSize: 0x3A }
+  - { offset: 0x60DE3, size: 0x8, addend: 0x0, symName: '-[GNBridge initializeModules:]', symObjAddr: 0x2B8, symBinAddr: 0x1C78, symSize: 0x1DF }
+  - { offset: 0x60F2B, size: 0x8, addend: 0x0, symName: '-[GNBridge runner:shouldLoadRequestWithURL:withData:]', symObjAddr: 0x497, symBinAddr: 0x1E57, symSize: 0x1B8 }
+  - { offset: 0x61090, size: 0x8, addend: 0x0, symName: '-[GNBridge application:didFinishLaunchingWithOptions:]', symObjAddr: 0x64F, symBinAddr: 0x200F, symSize: 0x185 }
+  - { offset: 0x611B6, size: 0x8, addend: 0x0, symName: '-[GNBridge application:openURL:options:]', symObjAddr: 0x7D4, symBinAddr: 0x2194, symSize: 0x1B6 }
+  - { offset: 0x6131B, size: 0x8, addend: 0x0, symName: '-[GNBridge loadUserScriptsForContentController:]', symObjAddr: 0x98A, symBinAddr: 0x234A, symSize: 0x486 }
+  - { offset: 0x616AB, size: 0x8, addend: 0x0, symName: '-[GNBridge application:didReceiveRemoteNotification:]', symObjAddr: 0xE10, symBinAddr: 0x27D0, symSize: 0x185 }
+  - { offset: 0x617D1, size: 0x8, addend: 0x0, symName: '-[GNBridge application:didRegisterForRemoteNotificationsWithDeviceToken:]', symObjAddr: 0xF95, symBinAddr: 0x2955, symSize: 0x185 }
+  - { offset: 0x618F7, size: 0x8, addend: 0x0, symName: '-[GNBridge application:continueUserActivity:]', symObjAddr: 0x111A, symBinAddr: 0x2ADA, symSize: 0x194 }
+  - { offset: 0x61A21, size: 0x8, addend: 0x0, symName: '-[GNBridge switchToWebView:withRunner:]', symObjAddr: 0x12AE, symBinAddr: 0x2C6E, symSize: 0x185 }
+  - { offset: 0x61B47, size: 0x8, addend: 0x0, symName: '-[GNBridge runner:willTransitionToSize:withTransitionCoordinator:]', symObjAddr: 0x1433, symBinAddr: 0x2DF3, symSize: 0x1A5 }
+  - { offset: 0x61C7D, size: 0x8, addend: 0x0, symName: '-[GNBridge webView:didFinishNavigation:withRunner:]', symObjAddr: 0x15D8, symBinAddr: 0x2F98, symSize: 0x221 }
+  - { offset: 0x61E5B, size: 0x8, addend: 0x0, symName: '-[GNBridge webView:handleURL:]', symObjAddr: 0x17F9, symBinAddr: 0x31B9, symSize: 0x185 }
+  - { offset: 0x61F81, size: 0x8, addend: 0x0, symName: '-[GNBridge webView:shouldDownloadUrl:]', symObjAddr: 0x197E, symBinAddr: 0x333E, symSize: 0x197 }
+  - { offset: 0x620AB, size: 0x8, addend: 0x0, symName: '-[GNBridge getInitialUrlQueryItems]', symObjAddr: 0x1B15, symBinAddr: 0x34D5, symSize: 0x1B2 }
+  - { offset: 0x621B1, size: 0x8, addend: 0x0, symName: '-[GNBridge getControllerForKey:runner:]', symObjAddr: 0x1CC7, symBinAddr: 0x3687, symSize: 0x1A3 }
+  - { offset: 0x622F2, size: 0x8, addend: 0x0, symName: '-[GNBridge applicationWillTerminate:]', symObjAddr: 0x1E6A, symBinAddr: 0x382A, symSize: 0x167 }
+  - { offset: 0x623DD, size: 0x8, addend: 0x0, symName: '-[GNBridge applicationDidEnterBackground:]', symObjAddr: 0x1FD1, symBinAddr: 0x3991, symSize: 0x167 }
+  - { offset: 0x624C8, size: 0x8, addend: 0x0, symName: '-[GNBridge applicationWillResignActive:]', symObjAddr: 0x2138, symBinAddr: 0x3AF8, symSize: 0x167 }
+  - { offset: 0x625B3, size: 0x8, addend: 0x0, symName: '-[GNBridge applicationWillEnterForeground:]', symObjAddr: 0x229F, symBinAddr: 0x3C5F, symSize: 0x167 }
+  - { offset: 0x6269E, size: 0x8, addend: 0x0, symName: '-[GNBridge applicationDidBecomeActive:]', symObjAddr: 0x2406, symBinAddr: 0x3DC6, symSize: 0x167 }
+  - { offset: 0x62789, size: 0x8, addend: 0x0, symName: '-[GNBridge runnerDidLoad:]', symObjAddr: 0x256D, symBinAddr: 0x3F2D, symSize: 0x167 }
+  - { offset: 0x62874, size: 0x8, addend: 0x0, symName: '-[GNBridge runnerWillAppear:]', symObjAddr: 0x26D4, symBinAddr: 0x4094, symSize: 0x167 }
+  - { offset: 0x6295F, size: 0x8, addend: 0x0, symName: '-[GNBridge runnerWillDisappear:]', symObjAddr: 0x283B, symBinAddr: 0x41FB, symSize: 0x167 }
+  - { offset: 0x62A4A, size: 0x8, addend: 0x0, symName: '-[GNBridge hideWebViewWithRunner:]', symObjAddr: 0x29A2, symBinAddr: 0x4362, symSize: 0x167 }
+  - { offset: 0x62B35, size: 0x8, addend: 0x0, symName: '-[GNBridge launchOptions]', symObjAddr: 0x2B09, symBinAddr: 0x44C9, symSize: 0xA }
+  - { offset: 0x62B6A, size: 0x8, addend: 0x0, symName: '-[GNBridge .cxx_destruct]', symObjAddr: 0x2B13, symBinAddr: 0x44D3, symSize: 0x28 }
+  - { offset: 0x62FD6, size: 0x8, addend: 0x0, symName: '-[GNEventEmitter createJSForCallback:]', symObjAddr: 0x0, symBinAddr: 0x44FB, symSize: 0x16B }
+  - { offset: 0x63035, size: 0x8, addend: 0x0, symName: '-[GNEventEmitter createJSForCallback:]', symObjAddr: 0x0, symBinAddr: 0x44FB, symSize: 0x16B }
+  - { offset: 0x63119, size: 0x8, addend: 0x0, symName: '-[GNEventEmitter createJSForCallback:params:]', symObjAddr: 0x16B, symBinAddr: 0x4666, symSize: 0x16C }
+  - { offset: 0x6327A, size: 0x8, addend: 0x0, symName: '-[GNEventEmitter bridge]', symObjAddr: 0x2D7, symBinAddr: 0x47D2, symSize: 0x16 }
+  - { offset: 0x632B1, size: 0x8, addend: 0x0, symName: '-[GNEventEmitter setBridge:]', symObjAddr: 0x2ED, symBinAddr: 0x47E8, symSize: 0x11 }
+  - { offset: 0x632F2, size: 0x8, addend: 0x0, symName: '-[GNEventEmitter .cxx_destruct]', symObjAddr: 0x2FE, symBinAddr: 0x47F9, symSize: 0xE }
+  - { offset: 0x633C2, size: 0x8, addend: 0x0, symName: '+[GNJSBridgeHandler shared]', symObjAddr: 0x0, symBinAddr: 0x4807, symSize: 0x84 }
+  - { offset: 0x633D5, size: 0x8, addend: 0x0, symName: '+[GNJSBridgeHandler shared]', symObjAddr: 0x0, symBinAddr: 0x4807, symSize: 0x84 }
+  - { offset: 0x633FF, size: 0x8, addend: 0x0, symName: _shared.sharedJsBridgeHandler, symObjAddr: 0x10EC0, symBinAddr: 0x447D0, symSize: 0x0 }
+  - { offset: 0x634DB, size: 0x8, addend: 0x0, symName: '-[GNJSBridgeHandler showUnlicensedAlertUsingWvc:]', symObjAddr: 0x84, symBinAddr: 0x488B, symSize: 0x140 }
+  - { offset: 0x63636, size: 0x8, addend: 0x0, symName: '-[GNJSBridgeHandler getJsonFromString:]', symObjAddr: 0x1C4, symBinAddr: 0x49CB, symSize: 0xA2 }
+  - { offset: 0x636DE, size: 0x8, addend: 0x0, symName: '-[GNJSBridgeHandler handleUrl:query:wvc:]', symObjAddr: 0x266, symBinAddr: 0x4A6D, symSize: 0x355C }
+  - { offset: 0x65CBA, size: 0x8, addend: 0x0, symName: '___41-[GNJSBridgeHandler handleUrl:query:wvc:]_block_invoke', symObjAddr: 0x37C2, symBinAddr: 0x7FC9, symSize: 0x16D }
+  - { offset: 0x65DFB, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s, symObjAddr: 0x392F, symBinAddr: 0x8136, symSize: 0x25 }
+  - { offset: 0x65E3C, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s, symObjAddr: 0x3954, symBinAddr: 0x815B, symSize: 0x25 }
+  - { offset: 0x65E73, size: 0x8, addend: 0x0, symName: '___41-[GNJSBridgeHandler handleUrl:query:wvc:]_block_invoke.380', symObjAddr: 0x3979, symBinAddr: 0x8180, symSize: 0x115 }
+  - { offset: 0x65F5E, size: 0x8, addend: 0x0, symName: '___41-[GNJSBridgeHandler handleUrl:query:wvc:]_block_invoke.391', symObjAddr: 0x3A8E, symBinAddr: 0x8295, symSize: 0x80 }
+  - { offset: 0x66018, size: 0x8, addend: 0x0, symName: '___41-[GNJSBridgeHandler handleUrl:query:wvc:]_block_invoke.438', symObjAddr: 0x3B0E, symBinAddr: 0x8315, symSize: 0x6 }
+  - { offset: 0x66041, size: 0x8, addend: 0x0, symName: '___41-[GNJSBridgeHandler handleUrl:query:wvc:]_block_invoke_2', symObjAddr: 0x3B14, symBinAddr: 0x831B, symSize: 0x6 }
+  - { offset: 0x6606A, size: 0x8, addend: 0x0, symName: '___41-[GNJSBridgeHandler handleUrl:query:wvc:]_block_invoke_3', symObjAddr: 0x3B1A, symBinAddr: 0x8321, symSize: 0x8A }
+  - { offset: 0x6611B, size: 0x8, addend: 0x0, symName: '___41-[GNJSBridgeHandler handleUrl:query:wvc:]_block_invoke_4', symObjAddr: 0x3BA4, symBinAddr: 0x83AB, symSize: 0x4E }
+  - { offset: 0x6617C, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s, symObjAddr: 0x3BF2, symBinAddr: 0x83F9, symSize: 0xF }
+  - { offset: 0x661AF, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s, symObjAddr: 0x3C01, symBinAddr: 0x8408, symSize: 0xF }
+  - { offset: 0x6780B, size: 0x8, addend: 0x0, symName: '+[GNUtilities parseQueryParamsWithUrl:]', symObjAddr: 0x0, symBinAddr: 0x8417, symSize: 0x2F7 }
+  - { offset: 0x67819, size: 0x8, addend: 0x0, symName: '+[GNUtilities parseQueryParamsWithUrl:]', symObjAddr: 0x0, symBinAddr: 0x8417, symSize: 0x2F7 }
+  - { offset: 0x67A36, size: 0x8, addend: 0x0, symName: '+[GNUtilities colorFromHexString:]', symObjAddr: 0x2F7, symBinAddr: 0x870E, symSize: 0x133 }
+  - { offset: 0x67B30, size: 0x8, addend: 0x0, symName: '+[GNUtilities url:matchesUrl:]', symObjAddr: 0x42A, symBinAddr: 0x8841, symSize: 0x10C }
+  - { offset: 0x67D05, size: 0x8, addend: 0x0, symName: '+[GoNativeAppConfig sharedAppConfig]', symObjAddr: 0x0, symBinAddr: 0x894D, symSize: 0x126 }
+  - { offset: 0x67D18, size: 0x8, addend: 0x0, symName: '+[GoNativeAppConfig sharedAppConfig]', symObjAddr: 0x0, symBinAddr: 0x894D, symSize: 0x126 }
+  - { offset: 0x67D42, size: 0x8, addend: 0x0, symName: _sharedAppConfig.sharedAppConfig, symObjAddr: 0x7F190, symBinAddr: 0x447D8, symSize: 0x0 }
+  - { offset: 0x6A04D, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig getMobileProvision]', symObjAddr: 0x11792, symBinAddr: 0x1A0C1, symSize: 0x305 }
+  - { offset: 0x6A079, size: 0x8, addend: 0x0, symName: _getMobileProvision.mobileProvision, symObjAddr: 0x7F198, symBinAddr: 0x447E0, symSize: 0x0 }
+  - { offset: 0x6A456, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setupFromJsonFiles]', symObjAddr: 0x126, symBinAddr: 0x8A73, symSize: 0x463 }
+  - { offset: 0x6A76A, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig processConfig]', symObjAddr: 0x589, symBinAddr: 0x8ED6, symSize: 0xC77D }
+  - { offset: 0x73722, size: 0x8, addend: 0x0, symName: ___Block_byref_object_copy_, symObjAddr: 0xCD06, symBinAddr: 0x15653, symSize: 0x16 }
+  - { offset: 0x73747, size: 0x8, addend: 0x0, symName: ___Block_byref_object_dispose_, symObjAddr: 0xCD1C, symBinAddr: 0x15669, symSize: 0xF }
+  - { offset: 0x73772, size: 0x8, addend: 0x0, symName: '___34-[GoNativeAppConfig processConfig]_block_invoke', symObjAddr: 0xCD2B, symBinAddr: 0x15678, symSize: 0x270 }
+  - { offset: 0x739D9, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40r, symObjAddr: 0xCF9B, symBinAddr: 0x158E8, symSize: 0x30 }
+  - { offset: 0x73A0E, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40r, symObjAddr: 0xCFCB, symBinAddr: 0x15918, symSize: 0x27 }
+  - { offset: 0x73A39, size: 0x8, addend: 0x0, symName: '+[GoNativeAppConfig urlForOtaConfig]', symObjAddr: 0xCFF2, symBinAddr: 0x1593F, symSize: 0xDA }
+  - { offset: 0x73B26, size: 0x8, addend: 0x0, symName: '+[GoNativeAppConfig urlForSimulatorFile:]', symObjAddr: 0xD0CC, symBinAddr: 0x15A19, symSize: 0x16C }
+  - { offset: 0x73CC6, size: 0x8, addend: 0x0, symName: '+[GoNativeAppConfig urlForSimulatorConfig]', symObjAddr: 0xD238, symBinAddr: 0x15B85, symSize: 0x20 }
+  - { offset: 0x73D06, size: 0x8, addend: 0x0, symName: '+[GoNativeAppConfig urlForSimulatorIcon]', symObjAddr: 0xD258, symBinAddr: 0x15BA5, symSize: 0x20 }
+  - { offset: 0x73D46, size: 0x8, addend: 0x0, symName: '+[GoNativeAppConfig urlForSimulatorSidebarIcon]', symObjAddr: 0xD278, symBinAddr: 0x15BC5, symSize: 0x20 }
+  - { offset: 0x73D86, size: 0x8, addend: 0x0, symName: '+[GoNativeAppConfig urlForSimulatorNavTitleIcon]', symObjAddr: 0xD298, symBinAddr: 0x15BE5, symSize: 0x20 }
+  - { offset: 0x73DC6, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig getSidebarNavigation]', symObjAddr: 0xD2B8, symBinAddr: 0x15C05, symSize: 0x12 }
+  - { offset: 0x73E11, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig initialURL]', symObjAddr: 0xD2CA, symBinAddr: 0x15C17, symSize: 0x100 }
+  - { offset: 0x73F56, size: 0x8, addend: 0x0, symName: '___31-[GoNativeAppConfig initialURL]_block_invoke', symObjAddr: 0xD3CA, symBinAddr: 0x15D17, symSize: 0x51 }
+  - { offset: 0x73FBC, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig processSidebarNav:]', symObjAddr: 0xD439, symBinAddr: 0x15D68, symSize: 0xB97 }
+  - { offset: 0x74780, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig processSegmentedControl:]', symObjAddr: 0xDFD0, symBinAddr: 0x168FF, symSize: 0x131 }
+  - { offset: 0x74886, size: 0x8, addend: 0x0, symName: '___45-[GoNativeAppConfig processSegmentedControl:]_block_invoke', symObjAddr: 0xE101, symBinAddr: 0x16A30, symSize: 0x5B }
+  - { offset: 0x748EC, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig processMenus:]', symObjAddr: 0xE15C, symBinAddr: 0x16A8B, symSize: 0x43F }
+  - { offset: 0x74B5E, size: 0x8, addend: 0x0, symName: '___34-[GoNativeAppConfig processMenus:]_block_invoke', symObjAddr: 0xE59B, symBinAddr: 0x16ECA, symSize: 0x5B }
+  - { offset: 0x74BC4, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setSidebarNavigation:]', symObjAddr: 0xE5F6, symBinAddr: 0x16F25, symSize: 0x4E6 }
+  - { offset: 0x74EBC, size: 0x8, addend: 0x0, symName: '___42-[GoNativeAppConfig setSidebarNavigation:]_block_invoke', symObjAddr: 0xEADC, symBinAddr: 0x1740B, symSize: 0x5B }
+  - { offset: 0x74F22, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setSidebarNavigation:persist:]', symObjAddr: 0xEB37, symBinAddr: 0x17466, symSize: 0x194 }
+  - { offset: 0x75090, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setNavigationTitles:persist:]', symObjAddr: 0xECCB, symBinAddr: 0x175FA, symSize: 0x129 }
+  - { offset: 0x751E7, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setNavigationLevels:persist:]', symObjAddr: 0xEDF4, symBinAddr: 0x17723, symSize: 0x17B }
+  - { offset: 0x75354, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setMaxWindows:persist:autoClose:]', symObjAddr: 0xEF6F, symBinAddr: 0x1789E, symSize: 0x138 }
+  - { offset: 0x75467, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setSplashPage:splashPageRegex:]', symObjAddr: 0xF0A7, symBinAddr: 0x179D6, symSize: 0xEF }
+  - { offset: 0x75548, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig processTabNavigation:]', symObjAddr: 0xF196, symBinAddr: 0x17AC5, symSize: 0x7B1 }
+  - { offset: 0x75A14, size: 0x8, addend: 0x0, symName: '___42-[GoNativeAppConfig processTabNavigation:]_block_invoke', symObjAddr: 0xF947, symBinAddr: 0x18276, symSize: 0x5B }
+  - { offset: 0x75A7A, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig processActions:]', symObjAddr: 0xF9A2, symBinAddr: 0x182D1, symSize: 0x785 }
+  - { offset: 0x75F26, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig processNavigationLevels:]', symObjAddr: 0x10127, symBinAddr: 0x18A56, symSize: 0x473 }
+  - { offset: 0x76211, size: 0x8, addend: 0x0, symName: '___45-[GoNativeAppConfig processNavigationLevels:]_block_invoke', symObjAddr: 0x1059A, symBinAddr: 0x18EC9, symSize: 0x5B }
+  - { offset: 0x76277, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig processNavigationTitles:]', symObjAddr: 0x105F5, symBinAddr: 0x18F24, symSize: 0x581 }
+  - { offset: 0x7662D, size: 0x8, addend: 0x0, symName: '___45-[GoNativeAppConfig processNavigationTitles:]_block_invoke', symObjAddr: 0x10B76, symBinAddr: 0x194A5, symSize: 0x5B }
+  - { offset: 0x76693, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig processWebViewPools:]', symObjAddr: 0x10BD1, symBinAddr: 0x19500, symSize: 0xB1 }
+  - { offset: 0x7675B, size: 0x8, addend: 0x0, symName: '___41-[GoNativeAppConfig processWebViewPools:]_block_invoke', symObjAddr: 0x10C82, symBinAddr: 0x195B1, symSize: 0x5B }
+  - { offset: 0x767C1, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig shouldProcessJsBridge]', symObjAddr: 0x10CDD, symBinAddr: 0x1960C, symSize: 0x69 }
+  - { offset: 0x7683A, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig processUserAgentRegexes:]', symObjAddr: 0x10D46, symBinAddr: 0x19675, symSize: 0x39F }
+  - { offset: 0x76AA9, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig userAgentForUrl:]', symObjAddr: 0x110E5, symBinAddr: 0x19A14, symSize: 0x199 }
+  - { offset: 0x76C21, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig shouldShowSidebarForUrl:]', symObjAddr: 0x1127E, symBinAddr: 0x19BAD, symSize: 0x216 }
+  - { offset: 0x76DED, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig write:toFile:]', symObjAddr: 0x11494, symBinAddr: 0x19DC3, symSize: 0x82 }
+  - { offset: 0x76EBB, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig readFromFile:]', symObjAddr: 0x11516, symBinAddr: 0x19E45, symSize: 0x57 }
+  - { offset: 0x76F52, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig deleteFile:]', symObjAddr: 0x1156D, symBinAddr: 0x19E9C, symSize: 0xA1 }
+  - { offset: 0x77047, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig getUrlForConfigFile:]', symObjAddr: 0x1160E, symBinAddr: 0x19F3D, symSize: 0x184 }
+  - { offset: 0x771E6, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig sanitizeForJSON:]', symObjAddr: 0x11A97, symBinAddr: 0x1A3C6, symSize: 0x59A }
+  - { offset: 0x7759B, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig releaseMode]', symObjAddr: 0x12031, symBinAddr: 0x1A960, symSize: 0x1A8 }
+  - { offset: 0x776F4, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig releaseModeString]', symObjAddr: 0x121D9, symBinAddr: 0x1AB08, symSize: 0x32 }
+  - { offset: 0x77741, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig getString:]', symObjAddr: 0x1220B, symBinAddr: 0x1AB3A, symSize: 0x1150 }
+  - { offset: 0x785A1, size: 0x8, addend: 0x0, symName: '___31-[GoNativeAppConfig getString:]_block_invoke', symObjAddr: 0x1335B, symBinAddr: 0x1BC8A, symSize: 0xF0 }
+  - { offset: 0x786D3, size: 0x8, addend: 0x0, symName: '___31-[GoNativeAppConfig getString:]_block_invoke.1888', symObjAddr: 0x1344B, symBinAddr: 0x1BD7A, symSize: 0x11D1 }
+  - { offset: 0x79236, size: 0x8, addend: 0x0, symName: '___31-[GoNativeAppConfig getString:]_block_invoke_2', symObjAddr: 0x1461C, symBinAddr: 0x1CF4B, symSize: 0x170 }
+  - { offset: 0x793B6, size: 0x8, addend: 0x0, symName: '___31-[GoNativeAppConfig getString:]_block_invoke.1965', symObjAddr: 0x147D6, symBinAddr: 0x1D0BB, symSize: 0xA2 }
+  - { offset: 0x79448, size: 0x8, addend: 0x0, symName: '___31-[GoNativeAppConfig getString:]_block_invoke_2.1976', symObjAddr: 0x14878, symBinAddr: 0x1D15D, symSize: 0xA2 }
+  - { offset: 0x794DA, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig initializeRegexRules:]', symObjAddr: 0x1491A, symBinAddr: 0x1D1FF, symSize: 0x10D }
+  - { offset: 0x795D1, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setNewRegexRules:regexRulesArray:]', symObjAddr: 0x14A27, symBinAddr: 0x1D30C, symSize: 0x3DE }
+  - { offset: 0x79887, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig getRegexRuleForURL:rules:]', symObjAddr: 0x14E05, symBinAddr: 0x1D6EA, symSize: 0x387 }
+  - { offset: 0x79B25, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig createRegexRulesFromArray:]', symObjAddr: 0x1518C, symBinAddr: 0x1DA71, symSize: 0x5D7 }
+  - { offset: 0x79FC2, size: 0x8, addend: 0x0, symName: '+[GoNativeAppConfig arrayOfRegexesFromObject:]', symObjAddr: 0x15763, symBinAddr: 0x1E048, symSize: 0x27B }
+  - { offset: 0x7A188, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig updateSplashPageConfigFile:]', symObjAddr: 0x159DE, symBinAddr: 0x1E2C3, symSize: 0xD8 }
+  - { offset: 0x7A272, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig configError]', symObjAddr: 0x15AB6, symBinAddr: 0x1E39B, symSize: 0x14 }
+  - { offset: 0x7A2A9, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setConfigError:]', symObjAddr: 0x15ACA, symBinAddr: 0x1E3AF, symSize: 0xF }
+  - { offset: 0x7A2E8, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setInitialURL:]', symObjAddr: 0x15AD9, symBinAddr: 0x1E3BE, symSize: 0x14 }
+  - { offset: 0x7A329, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig initialHost]', symObjAddr: 0x15AED, symBinAddr: 0x1E3D2, symSize: 0x14 }
+  - { offset: 0x7A360, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setInitialHost:]', symObjAddr: 0x15B01, symBinAddr: 0x1E3E6, symSize: 0xF }
+  - { offset: 0x7A39F, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig appName]', symObjAddr: 0x15B10, symBinAddr: 0x1E3F5, symSize: 0x14 }
+  - { offset: 0x7A3D6, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setAppName:]', symObjAddr: 0x15B24, symBinAddr: 0x1E409, symSize: 0xF }
+  - { offset: 0x7A415, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig publicKey]', symObjAddr: 0x15B33, symBinAddr: 0x1E418, symSize: 0x14 }
+  - { offset: 0x7A44C, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setPublicKey:]', symObjAddr: 0x15B47, symBinAddr: 0x1E42C, symSize: 0xF }
+  - { offset: 0x7A48B, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig userAgentAdd]', symObjAddr: 0x15B56, symBinAddr: 0x1E43B, symSize: 0x14 }
+  - { offset: 0x7A4C2, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setUserAgentAdd:]', symObjAddr: 0x15B6A, symBinAddr: 0x1E44F, symSize: 0xF }
+  - { offset: 0x7A501, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig forceUserAgent]', symObjAddr: 0x15B79, symBinAddr: 0x1E45E, symSize: 0x14 }
+  - { offset: 0x7A538, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setForceUserAgent:]', symObjAddr: 0x15B8D, symBinAddr: 0x1E472, symSize: 0xF }
+  - { offset: 0x7A577, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig userAgent]', symObjAddr: 0x15B9C, symBinAddr: 0x1E481, symSize: 0x14 }
+  - { offset: 0x7A5AE, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setUserAgent:]', symObjAddr: 0x15BB0, symBinAddr: 0x1E495, symSize: 0xF }
+  - { offset: 0x7A5ED, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig userAgentReady]', symObjAddr: 0x15BBF, symBinAddr: 0x1E4A4, symSize: 0xB }
+  - { offset: 0x7A622, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setUserAgentReady:]', symObjAddr: 0x15BCA, symBinAddr: 0x1E4AF, symSize: 0x9 }
+  - { offset: 0x7A65F, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig userAgentRegexes]', symObjAddr: 0x15BD3, symBinAddr: 0x1E4B8, symSize: 0x14 }
+  - { offset: 0x7A696, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setUserAgentRegexes:]', symObjAddr: 0x15BE7, symBinAddr: 0x1E4CC, symSize: 0xF }
+  - { offset: 0x7A6D5, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig userAgentStrings]', symObjAddr: 0x15BF6, symBinAddr: 0x1E4DB, symSize: 0x14 }
+  - { offset: 0x7A70C, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setUserAgentStrings:]', symObjAddr: 0x15C0A, symBinAddr: 0x1E4EF, symSize: 0xF }
+  - { offset: 0x7A74B, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig useWKWebView]', symObjAddr: 0x15C19, symBinAddr: 0x1E4FE, symSize: 0xB }
+  - { offset: 0x7A780, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setUseWKWebView:]', symObjAddr: 0x15C24, symBinAddr: 0x1E509, symSize: 0x9 }
+  - { offset: 0x7A7BD, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig forceSessionCookieExpiry]', symObjAddr: 0x15C2D, symBinAddr: 0x1E512, symSize: 0xD }
+  - { offset: 0x7A7F2, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setForceSessionCookieExpiry:]', symObjAddr: 0x15C3A, symBinAddr: 0x1E51F, symSize: 0xD }
+  - { offset: 0x7A82F, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig replaceStrings]', symObjAddr: 0x15C47, symBinAddr: 0x1E52C, symSize: 0x14 }
+  - { offset: 0x7A866, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setReplaceStrings:]', symObjAddr: 0x15C5B, symBinAddr: 0x1E540, symSize: 0xF }
+  - { offset: 0x7A8A5, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig disableConfigUpdater]', symObjAddr: 0x15C6A, symBinAddr: 0x1E54F, symSize: 0xB }
+  - { offset: 0x7A8DA, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setDisableConfigUpdater:]', symObjAddr: 0x15C75, symBinAddr: 0x1E55A, symSize: 0x9 }
+  - { offset: 0x7A917, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig disableEventRecorder]', symObjAddr: 0x15C7E, symBinAddr: 0x1E563, symSize: 0xB }
+  - { offset: 0x7A94C, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setDisableEventRecorder:]', symObjAddr: 0x15C89, symBinAddr: 0x1E56E, symSize: 0x9 }
+  - { offset: 0x7A989, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig enableWindowOpen]', symObjAddr: 0x15C92, symBinAddr: 0x1E577, symSize: 0xB }
+  - { offset: 0x7A9BE, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setEnableWindowOpen:]', symObjAddr: 0x15C9D, symBinAddr: 0x1E582, symSize: 0x9 }
+  - { offset: 0x7A9FB, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig forceScreenOrientation]', symObjAddr: 0x15CA6, symBinAddr: 0x1E58B, symSize: 0xD }
+  - { offset: 0x7AA30, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setForceScreenOrientation:]', symObjAddr: 0x15CB3, symBinAddr: 0x1E598, symSize: 0xD }
+  - { offset: 0x7AA6D, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig keepScreenOn]', symObjAddr: 0x15CC0, symBinAddr: 0x1E5A5, symSize: 0xB }
+  - { offset: 0x7AAA2, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setKeepScreenOn:]', symObjAddr: 0x15CCB, symBinAddr: 0x1E5B0, symSize: 0x9 }
+  - { offset: 0x7AADF, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig iosFullScreenWebview]', symObjAddr: 0x15CD4, symBinAddr: 0x1E5B9, symSize: 0xB }
+  - { offset: 0x7AB14, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setIosFullScreenWebview:]', symObjAddr: 0x15CDF, symBinAddr: 0x1E5C4, symSize: 0x9 }
+  - { offset: 0x7AB51, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig showKeyboardAccessoryView]', symObjAddr: 0x15CE8, symBinAddr: 0x1E5CD, symSize: 0xB }
+  - { offset: 0x7AB86, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setShowKeyboardAccessoryView:]', symObjAddr: 0x15CF3, symBinAddr: 0x1E5D8, symSize: 0x9 }
+  - { offset: 0x7ABC3, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig customHeaders]', symObjAddr: 0x15CFC, symBinAddr: 0x1E5E1, symSize: 0x14 }
+  - { offset: 0x7ABFA, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setCustomHeaders:]', symObjAddr: 0x15D10, symBinAddr: 0x1E5F5, symSize: 0xF }
+  - { offset: 0x7AC39, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig nativeBridgeUrls]', symObjAddr: 0x15D1F, symBinAddr: 0x1E604, symSize: 0x14 }
+  - { offset: 0x7AC70, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setNativeBridgeUrls:]', symObjAddr: 0x15D33, symBinAddr: 0x1E618, symSize: 0xF }
+  - { offset: 0x7ACAF, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig listeners]', symObjAddr: 0x15D42, symBinAddr: 0x1E627, symSize: 0x14 }
+  - { offset: 0x7ACE6, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setListeners:]', symObjAddr: 0x15D56, symBinAddr: 0x1E63B, symSize: 0xF }
+  - { offset: 0x7AD25, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig injectMedianJS]', symObjAddr: 0x15D65, symBinAddr: 0x1E64A, symSize: 0xB }
+  - { offset: 0x7AD5A, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setInjectMedianJS:]', symObjAddr: 0x15D70, symBinAddr: 0x1E655, symSize: 0x9 }
+  - { offset: 0x7AD97, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig enableWebConsoleLogs]', symObjAddr: 0x15D79, symBinAddr: 0x1E65E, symSize: 0xB }
+  - { offset: 0x7ADCC, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setEnableWebConsoleLogs:]', symObjAddr: 0x15D84, symBinAddr: 0x1E669, symSize: 0x9 }
+  - { offset: 0x7AE09, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig contextMenuEnabled]', symObjAddr: 0x15D8D, symBinAddr: 0x1E672, symSize: 0xB }
+  - { offset: 0x7AE3E, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setContextMenuEnabled:]', symObjAddr: 0x15D98, symBinAddr: 0x1E67D, symSize: 0x9 }
+  - { offset: 0x7AE7B, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig contextMenuLinkActions]', symObjAddr: 0x15DA1, symBinAddr: 0x1E686, symSize: 0x14 }
+  - { offset: 0x7AEB2, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setContextMenuLinkActions:]', symObjAddr: 0x15DB5, symBinAddr: 0x1E69A, symSize: 0xF }
+  - { offset: 0x7AEF1, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig iOSRequestATTConsentOnLoad]', symObjAddr: 0x15DC4, symBinAddr: 0x1E6A9, symSize: 0xB }
+  - { offset: 0x7AF26, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setIOSRequestATTConsentOnLoad:]', symObjAddr: 0x15DCF, symBinAddr: 0x1E6B4, symSize: 0x9 }
+  - { offset: 0x7AF63, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig menus]', symObjAddr: 0x15DD8, symBinAddr: 0x1E6BD, symSize: 0x14 }
+  - { offset: 0x7AF9A, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setMenus:]', symObjAddr: 0x15DEC, symBinAddr: 0x1E6D1, symSize: 0xF }
+  - { offset: 0x7AFD9, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig loginDetectionURL]', symObjAddr: 0x15DFB, symBinAddr: 0x1E6E0, symSize: 0x14 }
+  - { offset: 0x7B010, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setLoginDetectionURL:]', symObjAddr: 0x15E0F, symBinAddr: 0x1E6F4, symSize: 0xF }
+  - { offset: 0x7B04F, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig loginDetectRegexes]', symObjAddr: 0x15E1E, symBinAddr: 0x1E703, symSize: 0x14 }
+  - { offset: 0x7B086, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setLoginDetectRegexes:]', symObjAddr: 0x15E32, symBinAddr: 0x1E717, symSize: 0xF }
+  - { offset: 0x7B0C5, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig loginDetectLocations]', symObjAddr: 0x15E41, symBinAddr: 0x1E726, symSize: 0x14 }
+  - { offset: 0x7B0FC, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setLoginDetectLocations:]', symObjAddr: 0x15E55, symBinAddr: 0x1E73A, symSize: 0xF }
+  - { offset: 0x7B13B, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig showNavigationMenu]', symObjAddr: 0x15E64, symBinAddr: 0x1E749, symSize: 0xB }
+  - { offset: 0x7B170, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setShowNavigationMenu:]', symObjAddr: 0x15E6F, symBinAddr: 0x1E754, symSize: 0x9 }
+  - { offset: 0x7B1AD, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig sidebarEnabledRegexes]', symObjAddr: 0x15E78, symBinAddr: 0x1E75D, symSize: 0x14 }
+  - { offset: 0x7B1E4, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setSidebarEnabledRegexes:]', symObjAddr: 0x15E8C, symBinAddr: 0x1E771, symSize: 0xF }
+  - { offset: 0x7B223, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig sidebarIsEnabled]', symObjAddr: 0x15E9B, symBinAddr: 0x1E780, symSize: 0x14 }
+  - { offset: 0x7B25A, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setSidebarIsEnabled:]', symObjAddr: 0x15EAF, symBinAddr: 0x1E794, symSize: 0xF }
+  - { offset: 0x7B299, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig sidebarMenuIcon]', symObjAddr: 0x15EBE, symBinAddr: 0x1E7A3, symSize: 0x14 }
+  - { offset: 0x7B2D0, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setSidebarMenuIcon:]', symObjAddr: 0x15ED2, symBinAddr: 0x1E7B7, symSize: 0xF }
+  - { offset: 0x7B30F, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig navStructureLevels]', symObjAddr: 0x15EE1, symBinAddr: 0x1E7C6, symSize: 0x14 }
+  - { offset: 0x7B346, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setNavStructureLevels:]', symObjAddr: 0x15EF5, symBinAddr: 0x1E7DA, symSize: 0xF }
+  - { offset: 0x7B385, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig navTitles]', symObjAddr: 0x15F04, symBinAddr: 0x1E7E9, symSize: 0x14 }
+  - { offset: 0x7B3BC, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setNavTitles:]', symObjAddr: 0x15F18, symBinAddr: 0x1E7FD, symSize: 0xF }
+  - { offset: 0x7B3FB, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig regexRules]', symObjAddr: 0x15F27, symBinAddr: 0x1E80C, symSize: 0x14 }
+  - { offset: 0x7B432, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setRegexRules:]', symObjAddr: 0x15F3B, symBinAddr: 0x1E820, symSize: 0xF }
+  - { offset: 0x7B471, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig redirects]', symObjAddr: 0x15F4A, symBinAddr: 0x1E82F, symSize: 0x14 }
+  - { offset: 0x7B4A8, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setRedirects:]', symObjAddr: 0x15F5E, symBinAddr: 0x1E843, symSize: 0xF }
+  - { offset: 0x7B4E7, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig profilePickerJS]', symObjAddr: 0x15F6D, symBinAddr: 0x1E852, symSize: 0x14 }
+  - { offset: 0x7B51E, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setProfilePickerJS:]', symObjAddr: 0x15F81, symBinAddr: 0x1E866, symSize: 0xF }
+  - { offset: 0x7B55D, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig userIdRegex]', symObjAddr: 0x15F90, symBinAddr: 0x1E875, symSize: 0x14 }
+  - { offset: 0x7B594, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setUserIdRegex:]', symObjAddr: 0x15FA4, symBinAddr: 0x1E889, symSize: 0xF }
+  - { offset: 0x7B5D3, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig useWebpageTitle]', symObjAddr: 0x15FB3, symBinAddr: 0x1E898, symSize: 0xB }
+  - { offset: 0x7B608, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setUseWebpageTitle:]', symObjAddr: 0x15FBE, symBinAddr: 0x1E8A3, symSize: 0x9 }
+  - { offset: 0x7B645, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig segmentedControlItems]', symObjAddr: 0x15FC7, symBinAddr: 0x1E8AC, symSize: 0x14 }
+  - { offset: 0x7B67C, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setSegmentedControlItems:]', symObjAddr: 0x15FDB, symBinAddr: 0x1E8C0, symSize: 0xF }
+  - { offset: 0x7B6BB, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig customUrlScheme]', symObjAddr: 0x15FEA, symBinAddr: 0x1E8CF, symSize: 0x14 }
+  - { offset: 0x7B6F2, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setCustomUrlScheme:]', symObjAddr: 0x15FFE, symBinAddr: 0x1E8E3, symSize: 0xF }
+  - { offset: 0x7B731, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig disableDocumentOpenWith]', symObjAddr: 0x1600D, symBinAddr: 0x1E8F2, symSize: 0xB }
+  - { offset: 0x7B766, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setDisableDocumentOpenWith:]', symObjAddr: 0x16018, symBinAddr: 0x1E8FD, symSize: 0x9 }
+  - { offset: 0x7B7A3, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig windowOpenHideNavbar]', symObjAddr: 0x16021, symBinAddr: 0x1E906, symSize: 0xB }
+  - { offset: 0x7B7D8, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setWindowOpenHideNavbar:]', symObjAddr: 0x1602C, symBinAddr: 0x1E911, symSize: 0x9 }
+  - { offset: 0x7B815, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig tabMenus]', symObjAddr: 0x16035, symBinAddr: 0x1E91A, symSize: 0x14 }
+  - { offset: 0x7B84C, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setTabMenus:]', symObjAddr: 0x16049, symBinAddr: 0x1E92E, symSize: 0xF }
+  - { offset: 0x7B88B, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig tabMenuRegexes]', symObjAddr: 0x16058, symBinAddr: 0x1E93D, symSize: 0x14 }
+  - { offset: 0x7B8C2, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setTabMenuRegexes:]', symObjAddr: 0x1606C, symBinAddr: 0x1E951, symSize: 0xF }
+  - { offset: 0x7B901, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig tabMenuIDs]', symObjAddr: 0x1607B, symBinAddr: 0x1E960, symSize: 0x14 }
+  - { offset: 0x7B938, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setTabMenuIDs:]', symObjAddr: 0x1608F, symBinAddr: 0x1E974, symSize: 0xF }
+  - { offset: 0x7B977, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig actions]', symObjAddr: 0x1609E, symBinAddr: 0x1E983, symSize: 0x14 }
+  - { offset: 0x7B9AE, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setActions:]', symObjAddr: 0x160B2, symBinAddr: 0x1E997, symSize: 0xF }
+  - { offset: 0x7B9ED, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig actionSelection]', symObjAddr: 0x160C1, symBinAddr: 0x1E9A6, symSize: 0x14 }
+  - { offset: 0x7BA24, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setActionSelection:]', symObjAddr: 0x160D5, symBinAddr: 0x1E9BA, symSize: 0xF }
+  - { offset: 0x7BA63, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig toolbarEnabled]', symObjAddr: 0x160E4, symBinAddr: 0x1E9C9, symSize: 0xB }
+  - { offset: 0x7BA98, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setToolbarEnabled:]', symObjAddr: 0x160EF, symBinAddr: 0x1E9D4, symSize: 0x9 }
+  - { offset: 0x7BAD5, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig toolbarVisibility]', symObjAddr: 0x160F8, symBinAddr: 0x1E9DD, symSize: 0xD }
+  - { offset: 0x7BB0A, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setToolbarVisibility:]', symObjAddr: 0x16105, symBinAddr: 0x1E9EA, symSize: 0xD }
+  - { offset: 0x7BB47, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig toolbarVisibilityByPages]', symObjAddr: 0x16112, symBinAddr: 0x1E9F7, symSize: 0xD }
+  - { offset: 0x7BB7C, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setToolbarVisibilityByPages:]', symObjAddr: 0x1611F, symBinAddr: 0x1EA04, symSize: 0xD }
+  - { offset: 0x7BBB9, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig toolbarVisibilityByBackButton]', symObjAddr: 0x1612C, symBinAddr: 0x1EA11, symSize: 0xD }
+  - { offset: 0x7BBEE, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setToolbarVisibilityByBackButton:]', symObjAddr: 0x16139, symBinAddr: 0x1EA1E, symSize: 0xD }
+  - { offset: 0x7BC2B, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig toolbarItems]', symObjAddr: 0x16146, symBinAddr: 0x1EA2B, symSize: 0x14 }
+  - { offset: 0x7BC62, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setToolbarItems:]', symObjAddr: 0x1615A, symBinAddr: 0x1EA3F, symSize: 0xF }
+  - { offset: 0x7BCA1, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig toolbarRegexes]', symObjAddr: 0x16169, symBinAddr: 0x1EA4E, symSize: 0x14 }
+  - { offset: 0x7BCD8, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setToolbarRegexes:]', symObjAddr: 0x1617D, symBinAddr: 0x1EA62, symSize: 0xF }
+  - { offset: 0x7BD17, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig pinchToZoom]', symObjAddr: 0x1618C, symBinAddr: 0x1EA71, symSize: 0xB }
+  - { offset: 0x7BD4C, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setPinchToZoom:]', symObjAddr: 0x16197, symBinAddr: 0x1EA7C, symSize: 0x9 }
+  - { offset: 0x7BD89, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig pullToRefresh]', symObjAddr: 0x161A0, symBinAddr: 0x1EA85, symSize: 0xB }
+  - { offset: 0x7BDBE, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setPullToRefresh:]', symObjAddr: 0x161AB, symBinAddr: 0x1EA90, symSize: 0x9 }
+  - { offset: 0x7BDFB, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig swipeGestures]', symObjAddr: 0x161B4, symBinAddr: 0x1EA99, symSize: 0xB }
+  - { offset: 0x7BE30, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setSwipeGestures:]', symObjAddr: 0x161BF, symBinAddr: 0x1EAA4, symSize: 0x9 }
+  - { offset: 0x7BE6D, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig swipeGesturesEdge]', symObjAddr: 0x161C8, symBinAddr: 0x1EAAD, symSize: 0xB }
+  - { offset: 0x7BEA2, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setSwipeGesturesEdge:]', symObjAddr: 0x161D3, symBinAddr: 0x1EAB8, symSize: 0x9 }
+  - { offset: 0x7BEDF, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig maxWindows]', symObjAddr: 0x161DC, symBinAddr: 0x1EAC1, symSize: 0xD }
+  - { offset: 0x7BF14, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setMaxWindows:]', symObjAddr: 0x161E9, symBinAddr: 0x1EACE, symSize: 0xD }
+  - { offset: 0x7BF51, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig maxWindowsAutoClose]', symObjAddr: 0x161F6, symBinAddr: 0x1EADB, symSize: 0xB }
+  - { offset: 0x7BF86, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setMaxWindowsAutoClose:]', symObjAddr: 0x16201, symBinAddr: 0x1EAE6, symSize: 0x9 }
+  - { offset: 0x7BFC3, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig iosShowOfflinePage]', symObjAddr: 0x1620A, symBinAddr: 0x1EAEF, symSize: 0xB }
+  - { offset: 0x7BFF8, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setIosShowOfflinePage:]', symObjAddr: 0x16215, symBinAddr: 0x1EAFA, symSize: 0x9 }
+  - { offset: 0x7C035, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig iosConnectionOfflineTime]', symObjAddr: 0x1621E, symBinAddr: 0x1EB03, symSize: 0x14 }
+  - { offset: 0x7C06C, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setIosConnectionOfflineTime:]', symObjAddr: 0x16232, symBinAddr: 0x1EB17, symSize: 0xF }
+  - { offset: 0x7C0AB, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig hasCustomJS]', symObjAddr: 0x16241, symBinAddr: 0x1EB26, symSize: 0xB }
+  - { offset: 0x7C0E0, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setHasCustomJS:]', symObjAddr: 0x1624C, symBinAddr: 0x1EB31, symSize: 0x9 }
+  - { offset: 0x7C11D, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig hasIosCustomJS]', symObjAddr: 0x16255, symBinAddr: 0x1EB3A, symSize: 0xB }
+  - { offset: 0x7C152, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setHasIosCustomJS:]', symObjAddr: 0x16260, symBinAddr: 0x1EB45, symSize: 0x9 }
+  - { offset: 0x7C18F, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig iosTheme]', symObjAddr: 0x16269, symBinAddr: 0x1EB4E, symSize: 0x14 }
+  - { offset: 0x7C1C6, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setIosTheme:]', symObjAddr: 0x1627D, symBinAddr: 0x1EB62, symSize: 0xF }
+  - { offset: 0x7C205, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig iosDarkMode]', symObjAddr: 0x1628C, symBinAddr: 0x1EB71, symSize: 0x14 }
+  - { offset: 0x7C23C, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setIosDarkMode:]', symObjAddr: 0x162A0, symBinAddr: 0x1EB85, symSize: 0xF }
+  - { offset: 0x7C27B, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig hasCustomCSS]', symObjAddr: 0x162AF, symBinAddr: 0x1EB94, symSize: 0xB }
+  - { offset: 0x7C2B0, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setHasCustomCSS:]', symObjAddr: 0x162BA, symBinAddr: 0x1EB9F, symSize: 0x9 }
+  - { offset: 0x7C2ED, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig hasIosCustomCSS]', symObjAddr: 0x162C3, symBinAddr: 0x1EBA8, symSize: 0xB }
+  - { offset: 0x7C322, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setHasIosCustomCSS:]', symObjAddr: 0x162CE, symBinAddr: 0x1EBB3, symSize: 0x9 }
+  - { offset: 0x7C35F, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig initialWebviewZoom]', symObjAddr: 0x162D7, symBinAddr: 0x1EBBC, symSize: 0x14 }
+  - { offset: 0x7C396, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setInitialWebviewZoom:]', symObjAddr: 0x162EB, symBinAddr: 0x1EBD0, symSize: 0xF }
+  - { offset: 0x7C3D5, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig forceViewportWidth]', symObjAddr: 0x162FA, symBinAddr: 0x1EBDF, symSize: 0x14 }
+  - { offset: 0x7C40C, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setForceViewportWidth:]', symObjAddr: 0x1630E, symBinAddr: 0x1EBF3, symSize: 0xF }
+  - { offset: 0x7C44B, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig stringViewport]', symObjAddr: 0x1631D, symBinAddr: 0x1EC02, symSize: 0x14 }
+  - { offset: 0x7C482, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setStringViewport:]', symObjAddr: 0x16331, symBinAddr: 0x1EC16, symSize: 0xF }
+  - { offset: 0x7C4C1, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig tintColor]', symObjAddr: 0x16340, symBinAddr: 0x1EC25, symSize: 0x14 }
+  - { offset: 0x7C4F8, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setTintColor:]', symObjAddr: 0x16354, symBinAddr: 0x1EC39, symSize: 0xF }
+  - { offset: 0x7C537, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig tintColorDark]', symObjAddr: 0x16363, symBinAddr: 0x1EC48, symSize: 0x14 }
+  - { offset: 0x7C56E, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setTintColorDark:]', symObjAddr: 0x16377, symBinAddr: 0x1EC5C, symSize: 0xF }
+  - { offset: 0x7C5AD, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig titleTextColor]', symObjAddr: 0x16386, symBinAddr: 0x1EC6B, symSize: 0x14 }
+  - { offset: 0x7C5E4, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setTitleTextColor:]', symObjAddr: 0x1639A, symBinAddr: 0x1EC7F, symSize: 0xF }
+  - { offset: 0x7C623, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig titleTextColorDark]', symObjAddr: 0x163A9, symBinAddr: 0x1EC8E, symSize: 0x14 }
+  - { offset: 0x7C65A, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setTitleTextColorDark:]', symObjAddr: 0x163BD, symBinAddr: 0x1ECA2, symSize: 0xF }
+  - { offset: 0x7C699, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig iosStatusBarBackgroundColor]', symObjAddr: 0x163CC, symBinAddr: 0x1ECB1, symSize: 0x14 }
+  - { offset: 0x7C6D0, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setIosStatusBarBackgroundColor:]', symObjAddr: 0x163E0, symBinAddr: 0x1ECC5, symSize: 0xF }
+  - { offset: 0x7C70F, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig iosStatusBarBackgroundColorDark]', symObjAddr: 0x163EF, symBinAddr: 0x1ECD4, symSize: 0x14 }
+  - { offset: 0x7C746, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setIosStatusBarBackgroundColorDark:]', symObjAddr: 0x16403, symBinAddr: 0x1ECE8, symSize: 0xF }
+  - { offset: 0x7C785, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig iosEnableBlurInStatusBar]', symObjAddr: 0x16412, symBinAddr: 0x1ECF7, symSize: 0xB }
+  - { offset: 0x7C7BA, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setIosEnableBlurInStatusBar:]', symObjAddr: 0x1641D, symBinAddr: 0x1ED02, symSize: 0x9 }
+  - { offset: 0x7C7F7, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig iosEnableOverlayInStatusBar]', symObjAddr: 0x16426, symBinAddr: 0x1ED0B, symSize: 0xB }
+  - { offset: 0x7C82C, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setIosEnableOverlayInStatusBar:]', symObjAddr: 0x16431, symBinAddr: 0x1ED16, symSize: 0x9 }
+  - { offset: 0x7C869, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig iosStatusBarStyle]', symObjAddr: 0x1643A, symBinAddr: 0x1ED1F, symSize: 0x14 }
+  - { offset: 0x7C8A0, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setIosStatusBarStyle:]', symObjAddr: 0x1644E, symBinAddr: 0x1ED33, symSize: 0xF }
+  - { offset: 0x7C8DF, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig iosNavigationBarTintColor]', symObjAddr: 0x1645D, symBinAddr: 0x1ED42, symSize: 0x14 }
+  - { offset: 0x7C916, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setIosNavigationBarTintColor:]', symObjAddr: 0x16471, symBinAddr: 0x1ED56, symSize: 0xF }
+  - { offset: 0x7C955, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig iosNavigationBarTintColorDark]', symObjAddr: 0x16480, symBinAddr: 0x1ED65, symSize: 0x14 }
+  - { offset: 0x7C98C, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setIosNavigationBarTintColorDark:]', symObjAddr: 0x16494, symBinAddr: 0x1ED79, symSize: 0xF }
+  - { offset: 0x7C9CB, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig iosTabBarTintColor]', symObjAddr: 0x164A3, symBinAddr: 0x1ED88, symSize: 0x14 }
+  - { offset: 0x7CA02, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setIosTabBarTintColor:]', symObjAddr: 0x164B7, symBinAddr: 0x1ED9C, symSize: 0xF }
+  - { offset: 0x7CA41, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig iosTabBarTintColorDark]', symObjAddr: 0x164C6, symBinAddr: 0x1EDAB, symSize: 0x14 }
+  - { offset: 0x7CA78, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setIosTabBarTintColorDark:]', symObjAddr: 0x164DA, symBinAddr: 0x1EDBF, symSize: 0xF }
+  - { offset: 0x7CAB7, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig showToolbar]', symObjAddr: 0x164E9, symBinAddr: 0x1EDCE, symSize: 0xB }
+  - { offset: 0x7CAEC, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setShowToolbar:]', symObjAddr: 0x164F4, symBinAddr: 0x1EDD9, symSize: 0x9 }
+  - { offset: 0x7CB29, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig showNavigationBar]', symObjAddr: 0x164FD, symBinAddr: 0x1EDE2, symSize: 0xB }
+  - { offset: 0x7CB5E, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setShowNavigationBar:]', symObjAddr: 0x16508, symBinAddr: 0x1EDED, symSize: 0x9 }
+  - { offset: 0x7CB9B, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig isNavigationTitleImage]', symObjAddr: 0x16511, symBinAddr: 0x1EDF6, symSize: 0xB }
+  - { offset: 0x7CBD0, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setIsNavigationTitleImage:]', symObjAddr: 0x1651C, symBinAddr: 0x1EE01, symSize: 0x9 }
+  - { offset: 0x7CC0D, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig hideTabBarOnScroll]', symObjAddr: 0x16525, symBinAddr: 0x1EE0A, symSize: 0xB }
+  - { offset: 0x7CC42, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setHideTabBarOnScroll:]', symObjAddr: 0x16530, symBinAddr: 0x1EE15, symSize: 0x9 }
+  - { offset: 0x7CC7F, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig hideNavBarOnScroll]', symObjAddr: 0x16539, symBinAddr: 0x1EE1E, symSize: 0xB }
+  - { offset: 0x7CCB4, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setHideNavBarOnScroll:]', symObjAddr: 0x16544, symBinAddr: 0x1EE29, symSize: 0x9 }
+  - { offset: 0x7CCF1, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig transparentNavBar]', symObjAddr: 0x1654D, symBinAddr: 0x1EE32, symSize: 0xB }
+  - { offset: 0x7CD26, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setTransparentNavBar:]', symObjAddr: 0x16558, symBinAddr: 0x1EE3D, symSize: 0x9 }
+  - { offset: 0x7CD63, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig menuAnimationDuration]', symObjAddr: 0x16561, symBinAddr: 0x1EE46, symSize: 0x14 }
+  - { offset: 0x7CD9A, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setMenuAnimationDuration:]', symObjAddr: 0x16575, symBinAddr: 0x1EE5A, symSize: 0xF }
+  - { offset: 0x7CDD9, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig interactiveDelay]', symObjAddr: 0x16584, symBinAddr: 0x1EE69, symSize: 0x14 }
+  - { offset: 0x7CE10, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setInteractiveDelay:]', symObjAddr: 0x16598, symBinAddr: 0x1EE7D, symSize: 0xF }
+  - { offset: 0x7CE4F, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig iosSidebarFont]', symObjAddr: 0x165A7, symBinAddr: 0x1EE8C, symSize: 0x14 }
+  - { offset: 0x7CE86, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setIosSidebarFont:]', symObjAddr: 0x165BB, symBinAddr: 0x1EEA0, symSize: 0xF }
+  - { offset: 0x7CEC5, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig iosSidebarTextColor]', symObjAddr: 0x165CA, symBinAddr: 0x1EEAF, symSize: 0x14 }
+  - { offset: 0x7CEFC, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setIosSidebarTextColor:]', symObjAddr: 0x165DE, symBinAddr: 0x1EEC3, symSize: 0xF }
+  - { offset: 0x7CF3B, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig iosSidebarTextColorDark]', symObjAddr: 0x165ED, symBinAddr: 0x1EED2, symSize: 0x14 }
+  - { offset: 0x7CF72, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setIosSidebarTextColorDark:]', symObjAddr: 0x16601, symBinAddr: 0x1EEE6, symSize: 0xF }
+  - { offset: 0x7CFB1, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig iosSidebarBackgroundColor]', symObjAddr: 0x16610, symBinAddr: 0x1EEF5, symSize: 0x14 }
+  - { offset: 0x7CFE8, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setIosSidebarBackgroundColor:]', symObjAddr: 0x16624, symBinAddr: 0x1EF09, symSize: 0xF }
+  - { offset: 0x7D027, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig iosSidebarBackgroundColorDark]', symObjAddr: 0x16633, symBinAddr: 0x1EF18, symSize: 0x14 }
+  - { offset: 0x7D05E, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setIosSidebarBackgroundColorDark:]', symObjAddr: 0x16647, symBinAddr: 0x1EF2C, symSize: 0xF }
+  - { offset: 0x7D09D, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig hideWebviewAlpha]', symObjAddr: 0x16656, symBinAddr: 0x1EF3B, symSize: 0x14 }
+  - { offset: 0x7D0D4, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setHideWebviewAlpha:]', symObjAddr: 0x1666A, symBinAddr: 0x1EF4F, symSize: 0xF }
+  - { offset: 0x7D113, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig disableAnimations]', symObjAddr: 0x16679, symBinAddr: 0x1EF5E, symSize: 0xB }
+  - { offset: 0x7D148, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setDisableAnimations:]', symObjAddr: 0x16684, symBinAddr: 0x1EF69, symSize: 0x9 }
+  - { offset: 0x7D185, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig iosAutoHideHomeIndicator]', symObjAddr: 0x1668D, symBinAddr: 0x1EF72, symSize: 0xB }
+  - { offset: 0x7D1BA, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setIosAutoHideHomeIndicator:]', symObjAddr: 0x16698, symBinAddr: 0x1EF7D, symSize: 0x9 }
+  - { offset: 0x7D1F7, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig dynamicTypeEnabled]', symObjAddr: 0x166A1, symBinAddr: 0x1EF86, symSize: 0xB }
+  - { offset: 0x7D22C, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setDynamicTypeEnabled:]', symObjAddr: 0x166AC, symBinAddr: 0x1EF91, symSize: 0x9 }
+  - { offset: 0x7D269, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig animatedSplashEnabled]', symObjAddr: 0x166B5, symBinAddr: 0x1EF9A, symSize: 0xB }
+  - { offset: 0x7D29E, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setAnimatedSplashEnabled:]', symObjAddr: 0x166C0, symBinAddr: 0x1EFA5, symSize: 0x9 }
+  - { offset: 0x7D2DB, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig animatedSplashLoop]', symObjAddr: 0x166C9, symBinAddr: 0x1EFAE, symSize: 0x14 }
+  - { offset: 0x7D312, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setAnimatedSplashLoop:]', symObjAddr: 0x166DD, symBinAddr: 0x1EFC2, symSize: 0xF }
+  - { offset: 0x7D351, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig animatedSpinnerEnabled]', symObjAddr: 0x166EC, symBinAddr: 0x1EFD1, symSize: 0xB }
+  - { offset: 0x7D386, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setAnimatedSpinnerEnabled:]', symObjAddr: 0x166F7, symBinAddr: 0x1EFDC, symSize: 0x9 }
+  - { offset: 0x7D3C3, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig loginConfig]', symObjAddr: 0x16700, symBinAddr: 0x1EFE5, symSize: 0x14 }
+  - { offset: 0x7D3FA, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setLoginConfig:]', symObjAddr: 0x16714, symBinAddr: 0x1EFF9, symSize: 0xF }
+  - { offset: 0x7D439, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig loginURL]', symObjAddr: 0x16723, symBinAddr: 0x1F008, symSize: 0x14 }
+  - { offset: 0x7D470, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setLoginURL:]', symObjAddr: 0x16737, symBinAddr: 0x1F01C, symSize: 0xF }
+  - { offset: 0x7D4AF, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig loginIsFirstPage]', symObjAddr: 0x16746, symBinAddr: 0x1F02B, symSize: 0xB }
+  - { offset: 0x7D4E4, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setLoginIsFirstPage:]', symObjAddr: 0x16751, symBinAddr: 0x1F036, symSize: 0x9 }
+  - { offset: 0x7D521, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig loginLaunchBackground]', symObjAddr: 0x1675A, symBinAddr: 0x1F03F, symSize: 0xB }
+  - { offset: 0x7D556, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setLoginLaunchBackground:]', symObjAddr: 0x16765, symBinAddr: 0x1F04A, symSize: 0x9 }
+  - { offset: 0x7D593, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig loginIconImage]', symObjAddr: 0x1676E, symBinAddr: 0x1F053, symSize: 0xB }
+  - { offset: 0x7D5C8, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setLoginIconImage:]', symObjAddr: 0x16779, symBinAddr: 0x1F05E, symSize: 0x9 }
+  - { offset: 0x7D605, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig signupURL]', symObjAddr: 0x16782, symBinAddr: 0x1F067, symSize: 0x14 }
+  - { offset: 0x7D63C, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setSignupURL:]', symObjAddr: 0x16796, symBinAddr: 0x1F07B, symSize: 0xF }
+  - { offset: 0x7D67B, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig signupConfig]', symObjAddr: 0x167A5, symBinAddr: 0x1F08A, symSize: 0x14 }
+  - { offset: 0x7D6B2, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setSignupConfig:]', symObjAddr: 0x167B9, symBinAddr: 0x1F09E, symSize: 0xF }
+  - { offset: 0x7D6F1, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig interceptForms]', symObjAddr: 0x167C8, symBinAddr: 0x1F0AD, symSize: 0x14 }
+  - { offset: 0x7D728, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setInterceptForms:]', symObjAddr: 0x167DC, symBinAddr: 0x1F0C1, symSize: 0xF }
+  - { offset: 0x7D767, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig analytics]', symObjAddr: 0x167EB, symBinAddr: 0x1F0D0, symSize: 0xB }
+  - { offset: 0x7D79C, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setAnalytics:]', symObjAddr: 0x167F6, symBinAddr: 0x1F0DB, symSize: 0x9 }
+  - { offset: 0x7D7D9, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig idsite_test]', symObjAddr: 0x167FF, symBinAddr: 0x1F0E4, symSize: 0xD }
+  - { offset: 0x7D80E, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setIdsite_test:]', symObjAddr: 0x1680C, symBinAddr: 0x1F0F1, symSize: 0xD }
+  - { offset: 0x7D84B, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig idsite_prod]', symObjAddr: 0x16819, symBinAddr: 0x1F0FE, symSize: 0xD }
+  - { offset: 0x7D880, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setIdsite_prod:]', symObjAddr: 0x16826, symBinAddr: 0x1F10B, symSize: 0xD }
+  - { offset: 0x7D8BD, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig backgroundLocationEnabled]', symObjAddr: 0x16833, symBinAddr: 0x1F118, symSize: 0xB }
+  - { offset: 0x7D8F2, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setBackgroundLocationEnabled:]', symObjAddr: 0x1683E, symBinAddr: 0x1F123, symSize: 0x9 }
+  - { offset: 0x7D92F, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig usesForegroundLocation]', symObjAddr: 0x16847, symBinAddr: 0x1F12C, symSize: 0xB }
+  - { offset: 0x7D964, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setUsesForegroundLocation:]', symObjAddr: 0x16852, symBinAddr: 0x1F137, symSize: 0x9 }
+  - { offset: 0x7D9A1, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig oneSignalEnabled]', symObjAddr: 0x1685B, symBinAddr: 0x1F140, symSize: 0xB }
+  - { offset: 0x7D9D6, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setOneSignalEnabled:]', symObjAddr: 0x16866, symBinAddr: 0x1F14B, symSize: 0x9 }
+  - { offset: 0x7DA13, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig oneSignalAppId]', symObjAddr: 0x1686F, symBinAddr: 0x1F154, symSize: 0x14 }
+  - { offset: 0x7DA4A, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setOneSignalAppId:]', symObjAddr: 0x16883, symBinAddr: 0x1F168, symSize: 0xF }
+  - { offset: 0x7DA89, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig oneSignalAutoRegister]', symObjAddr: 0x16892, symBinAddr: 0x1F177, symSize: 0xB }
+  - { offset: 0x7DABE, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setOneSignalAutoRegister:]', symObjAddr: 0x1689D, symBinAddr: 0x1F182, symSize: 0x9 }
+  - { offset: 0x7DAFB, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig oneSignalTagsJsonUrl]', symObjAddr: 0x168A6, symBinAddr: 0x1F18B, symSize: 0x14 }
+  - { offset: 0x7DB32, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setOneSignalTagsJsonUrl:]', symObjAddr: 0x168BA, symBinAddr: 0x1F19F, symSize: 0xF }
+  - { offset: 0x7DB71, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig oneSignalRequiresUserPrivacyConsent]', symObjAddr: 0x168C9, symBinAddr: 0x1F1AE, symSize: 0xB }
+  - { offset: 0x7DBA6, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setOneSignalRequiresUserPrivacyConsent:]', symObjAddr: 0x168D4, symBinAddr: 0x1F1B9, symSize: 0x9 }
+  - { offset: 0x7DBE3, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig oneSignalIosSoftPrompt]', symObjAddr: 0x168DD, symBinAddr: 0x1F1C2, symSize: 0xB }
+  - { offset: 0x7DC18, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setOneSignalIosSoftPrompt:]', symObjAddr: 0x168E8, symBinAddr: 0x1F1CD, symSize: 0x9 }
+  - { offset: 0x7DC55, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig oneSignalForegroundNotificationsEnabled]', symObjAddr: 0x168F1, symBinAddr: 0x1F1D6, symSize: 0xB }
+  - { offset: 0x7DC8A, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setOneSignalForegroundNotificationsEnabled:]', symObjAddr: 0x168FC, symBinAddr: 0x1F1E1, symSize: 0x9 }
+  - { offset: 0x7DCC7, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig oneSignalV5Enabled]', symObjAddr: 0x16905, symBinAddr: 0x1F1EA, symSize: 0xB }
+  - { offset: 0x7DCFC, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setOneSignalV5Enabled:]', symObjAddr: 0x16910, symBinAddr: 0x1F1F5, symSize: 0x9 }
+  - { offset: 0x7DD39, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig oneSignalV5AppId]', symObjAddr: 0x16919, symBinAddr: 0x1F1FE, symSize: 0x14 }
+  - { offset: 0x7DD70, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setOneSignalV5AppId:]', symObjAddr: 0x1692D, symBinAddr: 0x1F212, symSize: 0xF }
+  - { offset: 0x7DDAF, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig oneSignalV5AutoRegister]', symObjAddr: 0x1693C, symBinAddr: 0x1F221, symSize: 0xB }
+  - { offset: 0x7DDE4, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setOneSignalV5AutoRegister:]', symObjAddr: 0x16947, symBinAddr: 0x1F22C, symSize: 0x9 }
+  - { offset: 0x7DE21, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig oneSignalV5TagsJsonUrl]', symObjAddr: 0x16950, symBinAddr: 0x1F235, symSize: 0x14 }
+  - { offset: 0x7DE58, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setOneSignalV5TagsJsonUrl:]', symObjAddr: 0x16964, symBinAddr: 0x1F249, symSize: 0xF }
+  - { offset: 0x7DE97, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig oneSignalV5RequiresUserPrivacyConsent]', symObjAddr: 0x16973, symBinAddr: 0x1F258, symSize: 0xB }
+  - { offset: 0x7DECC, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setOneSignalV5RequiresUserPrivacyConsent:]', symObjAddr: 0x1697E, symBinAddr: 0x1F263, symSize: 0x9 }
+  - { offset: 0x7DF09, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig oneSignalV5IosSoftPrompt]', symObjAddr: 0x16987, symBinAddr: 0x1F26C, symSize: 0xB }
+  - { offset: 0x7DF3E, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setOneSignalV5IosSoftPrompt:]', symObjAddr: 0x16992, symBinAddr: 0x1F277, symSize: 0x9 }
+  - { offset: 0x7DF7B, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig oneSignalV5ForegroundNotificationsEnabled]', symObjAddr: 0x1699B, symBinAddr: 0x1F280, symSize: 0xB }
+  - { offset: 0x7DFB0, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setOneSignalV5ForegroundNotificationsEnabled:]', symObjAddr: 0x169A6, symBinAddr: 0x1F28B, symSize: 0x9 }
+  - { offset: 0x7DFED, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig oneSignalV5ClearNotificationsOnLaunch]', symObjAddr: 0x169AF, symBinAddr: 0x1F294, symSize: 0xB }
+  - { offset: 0x7E022, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setOneSignalV5ClearNotificationsOnLaunch:]', symObjAddr: 0x169BA, symBinAddr: 0x1F29F, symSize: 0x9 }
+  - { offset: 0x7E05F, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig xtremepushEnabled]', symObjAddr: 0x169C3, symBinAddr: 0x1F2A8, symSize: 0xB }
+  - { offset: 0x7E094, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setXtremepushEnabled:]', symObjAddr: 0x169CE, symBinAddr: 0x1F2B3, symSize: 0x9 }
+  - { offset: 0x7E0D1, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig xtremepushAppKey]', symObjAddr: 0x169D7, symBinAddr: 0x1F2BC, symSize: 0x14 }
+  - { offset: 0x7E108, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setXtremepushAppKey:]', symObjAddr: 0x169EB, symBinAddr: 0x1F2D0, symSize: 0xF }
+  - { offset: 0x7E147, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig xtremepushAutoRegister]', symObjAddr: 0x169FA, symBinAddr: 0x1F2DF, symSize: 0xB }
+  - { offset: 0x7E17C, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setXtremepushAutoRegister:]', symObjAddr: 0x16A05, symBinAddr: 0x1F2EA, symSize: 0x9 }
+  - { offset: 0x7E1B9, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig iterableEnabled]', symObjAddr: 0x16A0E, symBinAddr: 0x1F2F3, symSize: 0xB }
+  - { offset: 0x7E1EE, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setIterableEnabled:]', symObjAddr: 0x16A19, symBinAddr: 0x1F2FE, symSize: 0x9 }
+  - { offset: 0x7E22B, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig iterableApiKey]', symObjAddr: 0x16A22, symBinAddr: 0x1F307, symSize: 0x14 }
+  - { offset: 0x7E262, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setIterableApiKey:]', symObjAddr: 0x16A36, symBinAddr: 0x1F31B, symSize: 0xF }
+  - { offset: 0x7E2A1, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig iterableDataRegion]', symObjAddr: 0x16A45, symBinAddr: 0x1F32A, symSize: 0x14 }
+  - { offset: 0x7E2D8, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setIterableDataRegion:]', symObjAddr: 0x16A59, symBinAddr: 0x1F33E, symSize: 0xF }
+  - { offset: 0x7E317, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig iterableAutoRegister]', symObjAddr: 0x16A68, symBinAddr: 0x1F34D, symSize: 0xB }
+  - { offset: 0x7E34C, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setIterableAutoRegister:]', symObjAddr: 0x16A73, symBinAddr: 0x1F358, symSize: 0x9 }
+  - { offset: 0x7E389, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig cleverPushEnabled]', symObjAddr: 0x16A7C, symBinAddr: 0x1F361, symSize: 0xB }
+  - { offset: 0x7E3BE, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setCleverPushEnabled:]', symObjAddr: 0x16A87, symBinAddr: 0x1F36C, symSize: 0x9 }
+  - { offset: 0x7E3FB, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig cleverPushChannelId]', symObjAddr: 0x16A90, symBinAddr: 0x1F375, symSize: 0x14 }
+  - { offset: 0x7E432, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setCleverPushChannelId:]', symObjAddr: 0x16AA4, symBinAddr: 0x1F389, symSize: 0xF }
+  - { offset: 0x7E471, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig cleverPushAutoRegister]', symObjAddr: 0x16AB3, symBinAddr: 0x1F398, symSize: 0xB }
+  - { offset: 0x7E4A6, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setCleverPushAutoRegister:]', symObjAddr: 0x16ABE, symBinAddr: 0x1F3A3, symSize: 0x9 }
+  - { offset: 0x7E4E3, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig ibmpushEnabled]', symObjAddr: 0x16AC7, symBinAddr: 0x1F3AC, symSize: 0xB }
+  - { offset: 0x7E518, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setIbmpushEnabled:]', symObjAddr: 0x16AD2, symBinAddr: 0x1F3B7, symSize: 0x9 }
+  - { offset: 0x7E555, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig ibmpushConfig]', symObjAddr: 0x16ADB, symBinAddr: 0x1F3C0, symSize: 0x14 }
+  - { offset: 0x7E58C, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setIbmpushConfig:]', symObjAddr: 0x16AEF, symBinAddr: 0x1F3D4, symSize: 0xF }
+  - { offset: 0x7E5CB, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig klaviyoEnabled]', symObjAddr: 0x16AFE, symBinAddr: 0x1F3E3, symSize: 0xB }
+  - { offset: 0x7E600, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setKlaviyoEnabled:]', symObjAddr: 0x16B09, symBinAddr: 0x1F3EE, symSize: 0x9 }
+  - { offset: 0x7E63D, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig klaviyoApiKey]', symObjAddr: 0x16B12, symBinAddr: 0x1F3F7, symSize: 0x14 }
+  - { offset: 0x7E674, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setKlaviyoApiKey:]', symObjAddr: 0x16B26, symBinAddr: 0x1F40B, symSize: 0xF }
+  - { offset: 0x7E6B3, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig klaviyoAutoRegister]', symObjAddr: 0x16B35, symBinAddr: 0x1F41A, symSize: 0xB }
+  - { offset: 0x7E6E8, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setKlaviyoAutoRegister:]', symObjAddr: 0x16B40, symBinAddr: 0x1F425, symSize: 0x9 }
+  - { offset: 0x7E725, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig orttoPushEnabled]', symObjAddr: 0x16B49, symBinAddr: 0x1F42E, symSize: 0xB }
+  - { offset: 0x7E75A, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setOrttoPushEnabled:]', symObjAddr: 0x16B54, symBinAddr: 0x1F439, symSize: 0x9 }
+  - { offset: 0x7E797, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig orttoPushAppKey]', symObjAddr: 0x16B5D, symBinAddr: 0x1F442, symSize: 0x14 }
+  - { offset: 0x7E7CE, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setOrttoPushAppKey:]', symObjAddr: 0x16B71, symBinAddr: 0x1F456, symSize: 0xF }
+  - { offset: 0x7E80D, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig orttoPushEndpoint]', symObjAddr: 0x16B80, symBinAddr: 0x1F465, symSize: 0x14 }
+  - { offset: 0x7E844, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setOrttoPushEndpoint:]', symObjAddr: 0x16B94, symBinAddr: 0x1F479, symSize: 0xF }
+  - { offset: 0x7E883, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig orttoPushAutoRegister]', symObjAddr: 0x16BA3, symBinAddr: 0x1F488, symSize: 0xB }
+  - { offset: 0x7E8B8, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setOrttoPushAutoRegister:]', symObjAddr: 0x16BAE, symBinAddr: 0x1F493, symSize: 0x9 }
+  - { offset: 0x7E8F5, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig bloomreachEnabled]', symObjAddr: 0x16BB7, symBinAddr: 0x1F49C, symSize: 0xB }
+  - { offset: 0x7E92A, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setBloomreachEnabled:]', symObjAddr: 0x16BC2, symBinAddr: 0x1F4A7, symSize: 0x9 }
+  - { offset: 0x7E967, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig bloomreachApiKey]', symObjAddr: 0x16BCB, symBinAddr: 0x1F4B0, symSize: 0x14 }
+  - { offset: 0x7E99E, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setBloomreachApiKey:]', symObjAddr: 0x16BDF, symBinAddr: 0x1F4C4, symSize: 0xF }
+  - { offset: 0x7E9DD, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig bloomreachProjectToken]', symObjAddr: 0x16BEE, symBinAddr: 0x1F4D3, symSize: 0x14 }
+  - { offset: 0x7EA15, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setBloomreachProjectToken:]', symObjAddr: 0x16C02, symBinAddr: 0x1F4E7, symSize: 0xF }
+  - { offset: 0x7EA55, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig bloomreachBaseUrl]', symObjAddr: 0x16C11, symBinAddr: 0x1F4F6, symSize: 0x14 }
+  - { offset: 0x7EA8D, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setBloomreachBaseUrl:]', symObjAddr: 0x16C25, symBinAddr: 0x1F50A, symSize: 0xF }
+  - { offset: 0x7EACD, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig bloomreachAutoRegister]', symObjAddr: 0x16C34, symBinAddr: 0x1F519, symSize: 0xB }
+  - { offset: 0x7EB03, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setBloomreachAutoRegister:]', symObjAddr: 0x16C3F, symBinAddr: 0x1F524, symSize: 0x9 }
+  - { offset: 0x7EB41, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig facebookEnabled]', symObjAddr: 0x16C48, symBinAddr: 0x1F52D, symSize: 0xB }
+  - { offset: 0x7EB77, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setFacebookEnabled:]', symObjAddr: 0x16C53, symBinAddr: 0x1F538, symSize: 0x9 }
+  - { offset: 0x7EBB5, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig facebookAppId]', symObjAddr: 0x16C5C, symBinAddr: 0x1F541, symSize: 0x14 }
+  - { offset: 0x7EBED, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setFacebookAppId:]', symObjAddr: 0x16C70, symBinAddr: 0x1F555, symSize: 0xF }
+  - { offset: 0x7EC2D, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig facebookDisplayName]', symObjAddr: 0x16C7F, symBinAddr: 0x1F564, symSize: 0x14 }
+  - { offset: 0x7EC65, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setFacebookDisplayName:]', symObjAddr: 0x16C93, symBinAddr: 0x1F578, symSize: 0xF }
+  - { offset: 0x7ECA5, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig facebookAutoLogging]', symObjAddr: 0x16CA2, symBinAddr: 0x1F587, symSize: 0xB }
+  - { offset: 0x7ECDB, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setFacebookAutoLogging:]', symObjAddr: 0x16CAD, symBinAddr: 0x1F592, symSize: 0x9 }
+  - { offset: 0x7ED19, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig facebookLogin]', symObjAddr: 0x16CB6, symBinAddr: 0x1F59B, symSize: 0xB }
+  - { offset: 0x7ED4F, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setFacebookLogin:]', symObjAddr: 0x16CC1, symBinAddr: 0x1F5A6, symSize: 0x9 }
+  - { offset: 0x7ED8D, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig facebookClientToken]', symObjAddr: 0x16CCA, symBinAddr: 0x1F5AF, symSize: 0x14 }
+  - { offset: 0x7EDC5, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setFacebookClientToken:]', symObjAddr: 0x16CDE, symBinAddr: 0x1F5C3, symSize: 0xF }
+  - { offset: 0x7EE05, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig googleSignInEnabled]', symObjAddr: 0x16CED, symBinAddr: 0x1F5D2, symSize: 0xB }
+  - { offset: 0x7EE3B, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setGoogleSignInEnabled:]', symObjAddr: 0x16CF8, symBinAddr: 0x1F5DD, symSize: 0x9 }
+  - { offset: 0x7EE79, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig googleClientID]', symObjAddr: 0x16D01, symBinAddr: 0x1F5E6, symSize: 0x14 }
+  - { offset: 0x7EEB1, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setGoogleClientID:]', symObjAddr: 0x16D15, symBinAddr: 0x1F5FA, symSize: 0xF }
+  - { offset: 0x7EEF1, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig googleUrlScheme]', symObjAddr: 0x16D24, symBinAddr: 0x1F609, symSize: 0x14 }
+  - { offset: 0x7EF29, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setGoogleUrlScheme:]', symObjAddr: 0x16D38, symBinAddr: 0x1F61D, symSize: 0xF }
+  - { offset: 0x7EF69, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig appleSignInEnabled]', symObjAddr: 0x16D47, symBinAddr: 0x1F62C, symSize: 0xB }
+  - { offset: 0x7EF9F, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setAppleSignInEnabled:]', symObjAddr: 0x16D52, symBinAddr: 0x1F637, symSize: 0x9 }
+  - { offset: 0x7EFDD, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig adjustEnabled]', symObjAddr: 0x16D5B, symBinAddr: 0x1F640, symSize: 0xB }
+  - { offset: 0x7F013, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setAdjustEnabled:]', symObjAddr: 0x16D66, symBinAddr: 0x1F64B, symSize: 0x9 }
+  - { offset: 0x7F051, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig adjustAppToken]', symObjAddr: 0x16D6F, symBinAddr: 0x1F654, symSize: 0x14 }
+  - { offset: 0x7F089, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setAdjustAppToken:]', symObjAddr: 0x16D83, symBinAddr: 0x1F668, symSize: 0xF }
+  - { offset: 0x7F0C9, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig adjustEnvironment]', symObjAddr: 0x16D92, symBinAddr: 0x1F677, symSize: 0x14 }
+  - { offset: 0x7F101, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setAdjustEnvironment:]', symObjAddr: 0x16DA6, symBinAddr: 0x1F68B, symSize: 0xF }
+  - { offset: 0x7F141, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig adjustAutoInit]', symObjAddr: 0x16DB5, symBinAddr: 0x1F69A, symSize: 0xB }
+  - { offset: 0x7F177, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setAdjustAutoInit:]', symObjAddr: 0x16DC0, symBinAddr: 0x1F6A5, symSize: 0x9 }
+  - { offset: 0x7F1B5, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig adjustEnableSKAN]', symObjAddr: 0x16DC9, symBinAddr: 0x1F6AE, symSize: 0xB }
+  - { offset: 0x7F1EB, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setAdjustEnableSKAN:]', symObjAddr: 0x16DD4, symBinAddr: 0x1F6B9, symSize: 0x9 }
+  - { offset: 0x7F229, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig checkIdentityUrlRegexes]', symObjAddr: 0x16DDD, symBinAddr: 0x1F6C2, symSize: 0x14 }
+  - { offset: 0x7F261, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setCheckIdentityUrlRegexes:]', symObjAddr: 0x16DF1, symBinAddr: 0x1F6D6, symSize: 0xF }
+  - { offset: 0x7F2A1, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig identityEndpointUrl]', symObjAddr: 0x16E00, symBinAddr: 0x1F6E5, symSize: 0x14 }
+  - { offset: 0x7F2D9, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setIdentityEndpointUrl:]', symObjAddr: 0x16E14, symBinAddr: 0x1F6F9, symSize: 0xF }
+  - { offset: 0x7F319, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig registrationEndpoints]', symObjAddr: 0x16E23, symBinAddr: 0x1F708, symSize: 0x14 }
+  - { offset: 0x7F351, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setRegistrationEndpoints:]', symObjAddr: 0x16E37, symBinAddr: 0x1F71C, symSize: 0xF }
+  - { offset: 0x7F391, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig authAllowedUrls]', symObjAddr: 0x16E46, symBinAddr: 0x1F72B, symSize: 0x14 }
+  - { offset: 0x7F3C9, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setAuthAllowedUrls:]', symObjAddr: 0x16E5A, symBinAddr: 0x1F73F, symSize: 0xF }
+  - { offset: 0x7F409, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig auth0Enabled]', symObjAddr: 0x16E69, symBinAddr: 0x1F74E, symSize: 0xB }
+  - { offset: 0x7F43F, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setAuth0Enabled:]', symObjAddr: 0x16E74, symBinAddr: 0x1F759, symSize: 0x9 }
+  - { offset: 0x7F47D, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig auth0ClientId]', symObjAddr: 0x16E7D, symBinAddr: 0x1F762, symSize: 0x14 }
+  - { offset: 0x7F4B5, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setAuth0ClientId:]', symObjAddr: 0x16E91, symBinAddr: 0x1F776, symSize: 0xF }
+  - { offset: 0x7F4F5, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig auth0Domain]', symObjAddr: 0x16EA0, symBinAddr: 0x1F785, symSize: 0x14 }
+  - { offset: 0x7F52D, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setAuth0Domain:]', symObjAddr: 0x16EB4, symBinAddr: 0x1F799, symSize: 0xF }
+  - { offset: 0x7F56D, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig auth0Audience]', symObjAddr: 0x16EC3, symBinAddr: 0x1F7A8, symSize: 0x14 }
+  - { offset: 0x7F5A5, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setAuth0Audience:]', symObjAddr: 0x16ED7, symBinAddr: 0x1F7BC, symSize: 0xF }
+  - { offset: 0x7F5E5, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig intentEdgeEnabled]', symObjAddr: 0x16EE6, symBinAddr: 0x1F7CB, symSize: 0xB }
+  - { offset: 0x7F61B, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setIntentEdgeEnabled:]', symObjAddr: 0x16EF1, symBinAddr: 0x1F7D6, symSize: 0x9 }
+  - { offset: 0x7F659, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig intentEdgeAudienceAnalyticsEnabled]', symObjAddr: 0x16EFA, symBinAddr: 0x1F7DF, symSize: 0xB }
+  - { offset: 0x7F68F, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setIntentEdgeAudienceAnalyticsEnabled:]', symObjAddr: 0x16F05, symBinAddr: 0x1F7EA, symSize: 0x9 }
+  - { offset: 0x7F6CD, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig intentEdgeCrashReportsEnabled]', symObjAddr: 0x16F0E, symBinAddr: 0x1F7F3, symSize: 0xB }
+  - { offset: 0x7F703, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setIntentEdgeCrashReportsEnabled:]', symObjAddr: 0x16F19, symBinAddr: 0x1F7FE, symSize: 0x9 }
+  - { offset: 0x7F741, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig intentEdgeDebugLoggingEnabled]', symObjAddr: 0x16F22, symBinAddr: 0x1F807, symSize: 0xB }
+  - { offset: 0x7F777, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setIntentEdgeDebugLoggingEnabled:]', symObjAddr: 0x16F2D, symBinAddr: 0x1F812, symSize: 0x9 }
+  - { offset: 0x7F7B5, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig intentEdgeManifestUrl]', symObjAddr: 0x16F36, symBinAddr: 0x1F81B, symSize: 0x14 }
+  - { offset: 0x7F7ED, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setIntentEdgeManifestUrl:]', symObjAddr: 0x16F4A, symBinAddr: 0x1F82F, symSize: 0xF }
+  - { offset: 0x7F82D, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig intentEdgeBaseUrl]', symObjAddr: 0x16F59, symBinAddr: 0x1F83E, symSize: 0x14 }
+  - { offset: 0x7F865, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setIntentEdgeBaseUrl:]', symObjAddr: 0x16F6D, symBinAddr: 0x1F852, symSize: 0xF }
+  - { offset: 0x7F8A5, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig intentEdgePnsUrl]', symObjAddr: 0x16F7C, symBinAddr: 0x1F861, symSize: 0x14 }
+  - { offset: 0x7F8DD, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setIntentEdgePnsUrl:]', symObjAddr: 0x16F90, symBinAddr: 0x1F875, symSize: 0xF }
+  - { offset: 0x7F91D, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig iapEnabled]', symObjAddr: 0x16F9F, symBinAddr: 0x1F884, symSize: 0xB }
+  - { offset: 0x7F953, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setIapEnabled:]', symObjAddr: 0x16FAA, symBinAddr: 0x1F88F, symSize: 0x9 }
+  - { offset: 0x7F991, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig iapProductsUrl]', symObjAddr: 0x16FB3, symBinAddr: 0x1F898, symSize: 0x14 }
+  - { offset: 0x7F9C9, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setIapProductsUrl:]', symObjAddr: 0x16FC7, symBinAddr: 0x1F8AC, symSize: 0xF }
+  - { offset: 0x7FA09, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig iapPostUrl]', symObjAddr: 0x16FD6, symBinAddr: 0x1F8BB, symSize: 0x14 }
+  - { offset: 0x7FA41, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setIapPostUrl:]', symObjAddr: 0x16FEA, symBinAddr: 0x1F8CF, symSize: 0xF }
+  - { offset: 0x7FA81, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig saferpayEnabled]', symObjAddr: 0x16FF9, symBinAddr: 0x1F8DE, symSize: 0xB }
+  - { offset: 0x7FAB7, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setSaferpayEnabled:]', symObjAddr: 0x17004, symBinAddr: 0x1F8E9, symSize: 0x9 }
+  - { offset: 0x7FAF5, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig revenueCatEnabled]', symObjAddr: 0x1700D, symBinAddr: 0x1F8F2, symSize: 0xB }
+  - { offset: 0x7FB2B, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setRevenueCatEnabled:]', symObjAddr: 0x17018, symBinAddr: 0x1F8FD, symSize: 0x9 }
+  - { offset: 0x7FB69, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig admobEnabled]', symObjAddr: 0x17021, symBinAddr: 0x1F906, symSize: 0xB }
+  - { offset: 0x7FB9F, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setAdmobEnabled:]', symObjAddr: 0x1702C, symBinAddr: 0x1F911, symSize: 0x9 }
+  - { offset: 0x7FBDD, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig admobApplicationId]', symObjAddr: 0x17035, symBinAddr: 0x1F91A, symSize: 0x14 }
+  - { offset: 0x7FC15, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setAdmobApplicationId:]', symObjAddr: 0x17049, symBinAddr: 0x1F92E, symSize: 0xF }
+  - { offset: 0x7FC55, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig admobBannerAdUnitId]', symObjAddr: 0x17058, symBinAddr: 0x1F93D, symSize: 0x14 }
+  - { offset: 0x7FC8D, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setAdmobBannerAdUnitId:]', symObjAddr: 0x1706C, symBinAddr: 0x1F951, symSize: 0xF }
+  - { offset: 0x7FCCD, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig admobInterstitialAdUnitId]', symObjAddr: 0x1707B, symBinAddr: 0x1F960, symSize: 0x14 }
+  - { offset: 0x7FD05, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setAdmobInterstitialAdUnitId:]', symObjAddr: 0x1708F, symBinAddr: 0x1F974, symSize: 0xF }
+  - { offset: 0x7FD45, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig admobShowBanner]', symObjAddr: 0x1709E, symBinAddr: 0x1F983, symSize: 0xB }
+  - { offset: 0x7FD7B, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setAdmobShowBanner:]', symObjAddr: 0x170A9, symBinAddr: 0x1F98E, symSize: 0x9 }
+  - { offset: 0x7FDB9, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig admobAutoConsent]', symObjAddr: 0x170B2, symBinAddr: 0x1F997, symSize: 0xB }
+  - { offset: 0x7FDEF, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setAdmobAutoConsent:]', symObjAddr: 0x170BD, symBinAddr: 0x1F9A2, symSize: 0x9 }
+  - { offset: 0x7FE2D, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig cardIOEnabled]', symObjAddr: 0x170C6, symBinAddr: 0x1F9AB, symSize: 0xB }
+  - { offset: 0x7FE63, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setCardIOEnabled:]', symObjAddr: 0x170D1, symBinAddr: 0x1F9B6, symSize: 0x9 }
+  - { offset: 0x7FEA1, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig scanditEnabled]', symObjAddr: 0x170DA, symBinAddr: 0x1F9BF, symSize: 0xB }
+  - { offset: 0x7FED7, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setScanditEnabled:]', symObjAddr: 0x170E5, symBinAddr: 0x1F9CA, symSize: 0x9 }
+  - { offset: 0x7FF15, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig scanditLicenseKey]', symObjAddr: 0x170EE, symBinAddr: 0x1F9D3, symSize: 0x14 }
+  - { offset: 0x7FF4D, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setScanditLicenseKey:]', symObjAddr: 0x17102, symBinAddr: 0x1F9E7, symSize: 0xF }
+  - { offset: 0x7FF8D, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig snapchatShareEnabled]', symObjAddr: 0x17111, symBinAddr: 0x1F9F6, symSize: 0xB }
+  - { offset: 0x7FFC3, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setSnapchatShareEnabled:]', symObjAddr: 0x1711C, symBinAddr: 0x1FA01, symSize: 0x9 }
+  - { offset: 0x80001, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig snapchatClientId]', symObjAddr: 0x17125, symBinAddr: 0x1FA0A, symSize: 0x14 }
+  - { offset: 0x80039, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setSnapchatClientId:]', symObjAddr: 0x17139, symBinAddr: 0x1FA1E, symSize: 0xF }
+  - { offset: 0x80079, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig instagramShareEnabled]', symObjAddr: 0x17148, symBinAddr: 0x1FA2D, symSize: 0xB }
+  - { offset: 0x800AF, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setInstagramShareEnabled:]', symObjAddr: 0x17153, symBinAddr: 0x1FA38, symSize: 0x9 }
+  - { offset: 0x800ED, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig shareEnabled]', symObjAddr: 0x1715C, symBinAddr: 0x1FA41, symSize: 0xB }
+  - { offset: 0x80123, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setShareEnabled:]', symObjAddr: 0x17167, symBinAddr: 0x1FA4C, symSize: 0x9 }
+  - { offset: 0x80161, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig nfcEnabled]', symObjAddr: 0x17170, symBinAddr: 0x1FA55, symSize: 0xB }
+  - { offset: 0x80197, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setNfcEnabled:]', symObjAddr: 0x1717B, symBinAddr: 0x1FA60, symSize: 0x9 }
+  - { offset: 0x801D5, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig masterLockEnabled]', symObjAddr: 0x17184, symBinAddr: 0x1FA69, symSize: 0xB }
+  - { offset: 0x8020B, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setMasterLockEnabled:]', symObjAddr: 0x1718F, symBinAddr: 0x1FA74, symSize: 0x9 }
+  - { offset: 0x80249, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig growEnabled]', symObjAddr: 0x17198, symBinAddr: 0x1FA7D, symSize: 0xB }
+  - { offset: 0x8027F, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setGrowEnabled:]', symObjAddr: 0x171A3, symBinAddr: 0x1FA88, symSize: 0x9 }
+  - { offset: 0x802BD, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig growApiKey]', symObjAddr: 0x171AC, symBinAddr: 0x1FA91, symSize: 0x14 }
+  - { offset: 0x802F5, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setGrowApiKey:]', symObjAddr: 0x171C0, symBinAddr: 0x1FAA5, symSize: 0xF }
+  - { offset: 0x80335, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig growAnalyticsEnabled]', symObjAddr: 0x171CF, symBinAddr: 0x1FAB4, symSize: 0xB }
+  - { offset: 0x8036B, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setGrowAnalyticsEnabled:]', symObjAddr: 0x171DA, symBinAddr: 0x1FABF, symSize: 0x9 }
+  - { offset: 0x803A9, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig growLoggingEnabled]', symObjAddr: 0x171E3, symBinAddr: 0x1FAC8, symSize: 0xB }
+  - { offset: 0x803DF, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setGrowLoggingEnabled:]', symObjAddr: 0x171EE, symBinAddr: 0x1FAD3, symSize: 0x9 }
+  - { offset: 0x8041D, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig growAssociatedDomains]', symObjAddr: 0x171F7, symBinAddr: 0x1FADC, symSize: 0x14 }
+  - { offset: 0x80455, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setGrowAssociatedDomains:]', symObjAddr: 0x1720B, symBinAddr: 0x1FAF0, symSize: 0xF }
+  - { offset: 0x80495, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig growEnvironment]', symObjAddr: 0x1721A, symBinAddr: 0x1FAFF, symSize: 0x14 }
+  - { offset: 0x804CD, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setGrowEnvironment:]', symObjAddr: 0x1722E, symBinAddr: 0x1FB13, symSize: 0xF }
+  - { offset: 0x8050D, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig couplesEnabled]', symObjAddr: 0x1723D, symBinAddr: 0x1FB22, symSize: 0xB }
+  - { offset: 0x80543, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setCouplesEnabled:]', symObjAddr: 0x17248, symBinAddr: 0x1FB2D, symSize: 0x9 }
+  - { offset: 0x80581, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig couplesLicenseKey]', symObjAddr: 0x17251, symBinAddr: 0x1FB36, symSize: 0x14 }
+  - { offset: 0x805B9, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setCouplesLicenseKey:]', symObjAddr: 0x17265, symBinAddr: 0x1FB4A, symSize: 0xF }
+  - { offset: 0x805F9, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig episerverEnabled]', symObjAddr: 0x17274, symBinAddr: 0x1FB59, symSize: 0xB }
+  - { offset: 0x8062F, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setEpiserverEnabled:]', symObjAddr: 0x1727F, symBinAddr: 0x1FB64, symSize: 0x9 }
+  - { offset: 0x8066D, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig episerverAuthToken]', symObjAddr: 0x17288, symBinAddr: 0x1FB6D, symSize: 0x14 }
+  - { offset: 0x806A5, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setEpiserverAuthToken:]', symObjAddr: 0x1729C, symBinAddr: 0x1FB81, symSize: 0xF }
+  - { offset: 0x806E5, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig rootDetectEnabled]', symObjAddr: 0x172AB, symBinAddr: 0x1FB90, symSize: 0xB }
+  - { offset: 0x8071B, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setRootDetectEnabled:]', symObjAddr: 0x172B6, symBinAddr: 0x1FB9B, symSize: 0x9 }
+  - { offset: 0x80759, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig healthBridgeEnabled]', symObjAddr: 0x172BF, symBinAddr: 0x1FBA4, symSize: 0xB }
+  - { offset: 0x8078F, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setHealthBridgeEnabled:]', symObjAddr: 0x172CA, symBinAddr: 0x1FBAF, symSize: 0x9 }
+  - { offset: 0x807CD, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig ageSafetyEnabled]', symObjAddr: 0x172D3, symBinAddr: 0x1FBB8, symSize: 0xB }
+  - { offset: 0x80803, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setAgeSafetyEnabled:]', symObjAddr: 0x172DE, symBinAddr: 0x1FBC3, symSize: 0x9 }
+  - { offset: 0x80841, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig alarmsEnabled]', symObjAddr: 0x172E7, symBinAddr: 0x1FBCC, symSize: 0xB }
+  - { offset: 0x80877, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setAlarmsEnabled:]', symObjAddr: 0x172F2, symBinAddr: 0x1FBD7, symSize: 0x9 }
+  - { offset: 0x808B5, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig twilioEnabled]', symObjAddr: 0x172FB, symBinAddr: 0x1FBE0, symSize: 0xB }
+  - { offset: 0x808EB, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setTwilioEnabled:]', symObjAddr: 0x17306, symBinAddr: 0x1FBEB, symSize: 0x9 }
+  - { offset: 0x80929, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig zoomEnabled]', symObjAddr: 0x1730F, symBinAddr: 0x1FBF4, symSize: 0xB }
+  - { offset: 0x8095F, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setZoomEnabled:]', symObjAddr: 0x1731A, symBinAddr: 0x1FBFF, symSize: 0x9 }
+  - { offset: 0x8099D, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig calendarEnabled]', symObjAddr: 0x17323, symBinAddr: 0x1FC08, symSize: 0xB }
+  - { offset: 0x809D3, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setCalendarEnabled:]', symObjAddr: 0x1732E, symBinAddr: 0x1FC13, symSize: 0x9 }
+  - { offset: 0x80A11, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig beaconEnabled]', symObjAddr: 0x17337, symBinAddr: 0x1FC1C, symSize: 0xB }
+  - { offset: 0x80A47, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setBeaconEnabled:]', symObjAddr: 0x17342, symBinAddr: 0x1FC27, symSize: 0x9 }
+  - { offset: 0x80A85, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig beaconsJsonUrl]', symObjAddr: 0x1734B, symBinAddr: 0x1FC30, symSize: 0x14 }
+  - { offset: 0x80ABD, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setBeaconsJsonUrl:]', symObjAddr: 0x1735F, symBinAddr: 0x1FC44, symSize: 0xF }
+  - { offset: 0x80AFD, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig beaconsUpdateFrequency]', symObjAddr: 0x1736E, symBinAddr: 0x1FC53, symSize: 0x14 }
+  - { offset: 0x80B35, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setBeaconsUpdateFrequency:]', symObjAddr: 0x17382, symBinAddr: 0x1FC67, symSize: 0xF }
+  - { offset: 0x80B75, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig salesforceMobilepushEnabled]', symObjAddr: 0x17391, symBinAddr: 0x1FC76, symSize: 0xB }
+  - { offset: 0x80BAB, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setSalesforceMobilepushEnabled:]', symObjAddr: 0x1739C, symBinAddr: 0x1FC81, symSize: 0x9 }
+  - { offset: 0x80BE9, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig salesforceRequiresUserPrivacyConsent]', symObjAddr: 0x173A5, symBinAddr: 0x1FC8A, symSize: 0xB }
+  - { offset: 0x80C1F, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setSalesforceRequiresUserPrivacyConsent:]', symObjAddr: 0x173B0, symBinAddr: 0x1FC95, symSize: 0x9 }
+  - { offset: 0x80C5D, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig salesforceAppID]', symObjAddr: 0x173B9, symBinAddr: 0x1FC9E, symSize: 0x14 }
+  - { offset: 0x80C95, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setSalesforceAppID:]', symObjAddr: 0x173CD, symBinAddr: 0x1FCB2, symSize: 0xF }
+  - { offset: 0x80CD5, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig salesforceAccessToken]', symObjAddr: 0x173DC, symBinAddr: 0x1FCC1, symSize: 0x14 }
+  - { offset: 0x80D0D, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setSalesforceAccessToken:]', symObjAddr: 0x173F0, symBinAddr: 0x1FCD5, symSize: 0xF }
+  - { offset: 0x80D4D, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig salesforceAppEndpoint]', symObjAddr: 0x173FF, symBinAddr: 0x1FCE4, symSize: 0x14 }
+  - { offset: 0x80D85, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setSalesforceAppEndpoint:]', symObjAddr: 0x17413, symBinAddr: 0x1FCF8, symSize: 0xF }
+  - { offset: 0x80DC5, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig salesforceMID]', symObjAddr: 0x17422, symBinAddr: 0x1FD07, symSize: 0x14 }
+  - { offset: 0x80DFD, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setSalesforceMID:]', symObjAddr: 0x17436, symBinAddr: 0x1FD1B, symSize: 0xF }
+  - { offset: 0x80E3D, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig salesforceDelayRegistrationUntilContactKeyIsSet]', symObjAddr: 0x17445, symBinAddr: 0x1FD2A, symSize: 0xB }
+  - { offset: 0x80E73, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setSalesforceDelayRegistrationUntilContactKeyIsSet:]', symObjAddr: 0x17450, symBinAddr: 0x1FD35, symSize: 0x9 }
+  - { offset: 0x80EB1, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig kalturaEnabled]', symObjAddr: 0x17459, symBinAddr: 0x1FD3E, symSize: 0xB }
+  - { offset: 0x80EE7, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setKalturaEnabled:]', symObjAddr: 0x17464, symBinAddr: 0x1FD49, symSize: 0x9 }
+  - { offset: 0x80F25, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig kalturaPartnerId]', symObjAddr: 0x1746D, symBinAddr: 0x1FD52, symSize: 0x14 }
+  - { offset: 0x80F5D, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setKalturaPartnerId:]', symObjAddr: 0x17481, symBinAddr: 0x1FD66, symSize: 0xF }
+  - { offset: 0x80F9D, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig kalturaCastReceiverAppId]', symObjAddr: 0x17490, symBinAddr: 0x1FD75, symSize: 0x14 }
+  - { offset: 0x80FD5, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setKalturaCastReceiverAppId:]', symObjAddr: 0x174A4, symBinAddr: 0x1FD89, symSize: 0xF }
+  - { offset: 0x81015, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig kalturaServerUrl]', symObjAddr: 0x174B3, symBinAddr: 0x1FD98, symSize: 0x14 }
+  - { offset: 0x8104D, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setKalturaServerUrl:]', symObjAddr: 0x174C7, symBinAddr: 0x1FDAC, symSize: 0xF }
+  - { offset: 0x8108D, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig cordialEnabled]', symObjAddr: 0x174D6, symBinAddr: 0x1FDBB, symSize: 0xB }
+  - { offset: 0x810C3, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setCordialEnabled:]', symObjAddr: 0x174E1, symBinAddr: 0x1FDC6, symSize: 0x9 }
+  - { offset: 0x81101, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig cordialAccountKey]', symObjAddr: 0x174EA, symBinAddr: 0x1FDCF, symSize: 0x14 }
+  - { offset: 0x81139, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setCordialAccountKey:]', symObjAddr: 0x174FE, symBinAddr: 0x1FDE3, symSize: 0xF }
+  - { offset: 0x81179, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig cordialChannelKey]', symObjAddr: 0x1750D, symBinAddr: 0x1FDF2, symSize: 0x14 }
+  - { offset: 0x811B1, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setCordialChannelKey:]', symObjAddr: 0x17521, symBinAddr: 0x1FE06, symSize: 0xF }
+  - { offset: 0x811F1, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig cordialPushNotificationsEnabled]', symObjAddr: 0x17530, symBinAddr: 0x1FE15, symSize: 0xB }
+  - { offset: 0x81227, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setCordialPushNotificationsEnabled:]', symObjAddr: 0x1753B, symBinAddr: 0x1FE20, symSize: 0x9 }
+  - { offset: 0x81265, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig cordialPushAutoRegister]', symObjAddr: 0x17544, symBinAddr: 0x1FE29, symSize: 0xB }
+  - { offset: 0x8129B, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setCordialPushAutoRegister:]', symObjAddr: 0x1754F, symBinAddr: 0x1FE34, symSize: 0x9 }
+  - { offset: 0x812D9, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig appsflyerEnabled]', symObjAddr: 0x17558, symBinAddr: 0x1FE3D, symSize: 0xB }
+  - { offset: 0x8130F, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setAppsflyerEnabled:]', symObjAddr: 0x17563, symBinAddr: 0x1FE48, symSize: 0x9 }
+  - { offset: 0x8134D, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig appsflyerDevKey]', symObjAddr: 0x1756C, symBinAddr: 0x1FE51, symSize: 0x14 }
+  - { offset: 0x81385, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setAppsflyerDevKey:]', symObjAddr: 0x17580, symBinAddr: 0x1FE65, symSize: 0xF }
+  - { offset: 0x813C5, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig appsflyerAppleId]', symObjAddr: 0x1758F, symBinAddr: 0x1FE74, symSize: 0x14 }
+  - { offset: 0x813FD, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setAppsflyerAppleId:]', symObjAddr: 0x175A3, symBinAddr: 0x1FE88, symSize: 0xF }
+  - { offset: 0x8143D, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig appsflyerAttWaitDelay]', symObjAddr: 0x175B2, symBinAddr: 0x1FE97, symSize: 0x14 }
+  - { offset: 0x81475, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setAppsflyerAttWaitDelay:]', symObjAddr: 0x175C6, symBinAddr: 0x1FEAB, symSize: 0xF }
+  - { offset: 0x814B5, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig localSettingsEnabled]', symObjAddr: 0x175D5, symBinAddr: 0x1FEBA, symSize: 0xB }
+  - { offset: 0x814EB, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setLocalSettingsEnabled:]', symObjAddr: 0x175E0, symBinAddr: 0x1FEC5, symSize: 0x9 }
+  - { offset: 0x81529, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig keychainSwiftEnabled]', symObjAddr: 0x175E9, symBinAddr: 0x1FECE, symSize: 0xB }
+  - { offset: 0x8155F, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setKeychainSwiftEnabled:]', symObjAddr: 0x175F4, symBinAddr: 0x1FED9, symSize: 0x9 }
+  - { offset: 0x8159D, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig webScreenshotEnabled]', symObjAddr: 0x175FD, symBinAddr: 0x1FEE2, symSize: 0xB }
+  - { offset: 0x815D3, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setWebScreenshotEnabled:]', symObjAddr: 0x17608, symBinAddr: 0x1FEED, symSize: 0x9 }
+  - { offset: 0x81611, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig firebaseAnalyticsEnabled]', symObjAddr: 0x17611, symBinAddr: 0x1FEF6, symSize: 0xE }
+  - { offset: 0x81647, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setFirebaseAnalyticsEnabled:]', symObjAddr: 0x1761F, symBinAddr: 0x1FF04, symSize: 0xC }
+  - { offset: 0x81685, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig firebaseCrashlyticsEnabled]', symObjAddr: 0x1762B, symBinAddr: 0x1FF10, symSize: 0xE }
+  - { offset: 0x816BB, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setFirebaseCrashlyticsEnabled:]', symObjAddr: 0x17639, symBinAddr: 0x1FF1E, symSize: 0xC }
+  - { offset: 0x816F9, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig firebaseCrashlyticsWebviewErrorsEnabled]', symObjAddr: 0x17645, symBinAddr: 0x1FF2A, symSize: 0xE }
+  - { offset: 0x8172F, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setFirebaseCrashlyticsWebviewErrorsEnabled:]', symObjAddr: 0x17653, symBinAddr: 0x1FF38, symSize: 0xC }
+  - { offset: 0x8176D, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig firebaseCrashlyticsRequestOptIn]', symObjAddr: 0x1765F, symBinAddr: 0x1FF44, symSize: 0xE }
+  - { offset: 0x817A3, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setFirebaseCrashlyticsRequestOptIn:]', symObjAddr: 0x1766D, symBinAddr: 0x1FF52, symSize: 0xC }
+  - { offset: 0x817E1, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig barcodeScannerEnabled]', symObjAddr: 0x17679, symBinAddr: 0x1FF5E, symSize: 0xE }
+  - { offset: 0x81817, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setBarcodeScannerEnabled:]', symObjAddr: 0x17687, symBinAddr: 0x1FF6C, symSize: 0xC }
+  - { offset: 0x81855, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig barcodeScannerPrompt]', symObjAddr: 0x17693, symBinAddr: 0x1FF78, symSize: 0x14 }
+  - { offset: 0x8188D, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setBarcodeScannerPrompt:]', symObjAddr: 0x176A7, symBinAddr: 0x1FF8C, symSize: 0xF }
+  - { offset: 0x818CD, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig appReviewEnabled]', symObjAddr: 0x176B6, symBinAddr: 0x1FF9B, symSize: 0xE }
+  - { offset: 0x81903, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setAppReviewEnabled:]', symObjAddr: 0x176C4, symBinAddr: 0x1FFA9, symSize: 0xC }
+  - { offset: 0x81941, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig appReviewAppStoreId]', symObjAddr: 0x176D0, symBinAddr: 0x1FFB5, symSize: 0x14 }
+  - { offset: 0x81979, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setAppReviewAppStoreId:]', symObjAddr: 0x176E4, symBinAddr: 0x1FFC9, symSize: 0xF }
+  - { offset: 0x819B9, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig plaidEnabled]', symObjAddr: 0x176F3, symBinAddr: 0x1FFD8, symSize: 0xE }
+  - { offset: 0x819EF, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setPlaidEnabled:]', symObjAddr: 0x17701, symBinAddr: 0x1FFE6, symSize: 0xC }
+  - { offset: 0x81A2D, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig readerModalEnabled]', symObjAddr: 0x1770D, symBinAddr: 0x1FFF2, symSize: 0xE }
+  - { offset: 0x81A63, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setReaderModalEnabled:]', symObjAddr: 0x1771B, symBinAddr: 0x20000, symSize: 0xC }
+  - { offset: 0x81AA1, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig readerModalUrl]', symObjAddr: 0x17727, symBinAddr: 0x2000C, symSize: 0x14 }
+  - { offset: 0x81AD9, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setReaderModalUrl:]', symObjAddr: 0x1773B, symBinAddr: 0x20020, symSize: 0xF }
+  - { offset: 0x81B19, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig sendbirdEnabled]', symObjAddr: 0x1774A, symBinAddr: 0x2002F, symSize: 0xE }
+  - { offset: 0x81B4F, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setSendbirdEnabled:]', symObjAddr: 0x17758, symBinAddr: 0x2003D, symSize: 0xC }
+  - { offset: 0x81B8D, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig sendbirdAppId]', symObjAddr: 0x17764, symBinAddr: 0x20049, symSize: 0x14 }
+  - { offset: 0x81BC5, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setSendbirdAppId:]', symObjAddr: 0x17778, symBinAddr: 0x2005D, symSize: 0xF }
+  - { offset: 0x81C05, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig sendbirdAutoRegister]', symObjAddr: 0x17787, symBinAddr: 0x2006C, symSize: 0xE }
+  - { offset: 0x81C3B, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setSendbirdAutoRegister:]', symObjAddr: 0x17795, symBinAddr: 0x2007A, symSize: 0xC }
+  - { offset: 0x81C79, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig brazeEnabled]', symObjAddr: 0x177A1, symBinAddr: 0x20086, symSize: 0xE }
+  - { offset: 0x81CAF, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setBrazeEnabled:]', symObjAddr: 0x177AF, symBinAddr: 0x20094, symSize: 0xC }
+  - { offset: 0x81CED, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig brazeApiKey]', symObjAddr: 0x177BB, symBinAddr: 0x200A0, symSize: 0x14 }
+  - { offset: 0x81D25, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setBrazeApiKey:]', symObjAddr: 0x177CF, symBinAddr: 0x200B4, symSize: 0xF }
+  - { offset: 0x81D65, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig brazeEndpointKey]', symObjAddr: 0x177DE, symBinAddr: 0x200C3, symSize: 0x14 }
+  - { offset: 0x81D9D, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setBrazeEndpointKey:]', symObjAddr: 0x177F2, symBinAddr: 0x200D7, symSize: 0xF }
+  - { offset: 0x81DDD, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig brazeAutoRegister]', symObjAddr: 0x17801, symBinAddr: 0x200E6, symSize: 0xE }
+  - { offset: 0x81E13, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setBrazeAutoRegister:]', symObjAddr: 0x1780F, symBinAddr: 0x200F4, symSize: 0xC }
+  - { offset: 0x81E51, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig msdynamicsEnabled]', symObjAddr: 0x1781B, symBinAddr: 0x20100, symSize: 0xE }
+  - { offset: 0x81E87, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setMsdynamicsEnabled:]', symObjAddr: 0x17829, symBinAddr: 0x2010E, symSize: 0xC }
+  - { offset: 0x81EC5, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig msdynamicsAppId]', symObjAddr: 0x17835, symBinAddr: 0x2011A, symSize: 0x14 }
+  - { offset: 0x81EFD, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setMsdynamicsAppId:]', symObjAddr: 0x17849, symBinAddr: 0x2012E, symSize: 0xF }
+  - { offset: 0x81F3D, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig msdynamicsOrganizationId]', symObjAddr: 0x17858, symBinAddr: 0x2013D, symSize: 0x14 }
+  - { offset: 0x81F75, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setMsdynamicsOrganizationId:]', symObjAddr: 0x1786C, symBinAddr: 0x20151, symSize: 0xF }
+  - { offset: 0x81FB5, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig msdynamicsPublicEndpoint]', symObjAddr: 0x1787B, symBinAddr: 0x20160, symSize: 0x14 }
+  - { offset: 0x81FED, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setMsdynamicsPublicEndpoint:]', symObjAddr: 0x1788F, symBinAddr: 0x20174, symSize: 0xF }
+  - { offset: 0x8202D, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig msdynamicsApiKey]', symObjAddr: 0x1789E, symBinAddr: 0x20183, symSize: 0x14 }
+  - { offset: 0x82065, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setMsdynamicsApiKey:]', symObjAddr: 0x178B2, symBinAddr: 0x20197, symSize: 0xF }
+  - { offset: 0x820A5, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig moengageEnabled]', symObjAddr: 0x178C1, symBinAddr: 0x201A6, symSize: 0xE }
+  - { offset: 0x820DB, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setMoengageEnabled:]', symObjAddr: 0x178CF, symBinAddr: 0x201B4, symSize: 0xC }
+  - { offset: 0x82119, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig moengageAppId]', symObjAddr: 0x178DB, symBinAddr: 0x201C0, symSize: 0x14 }
+  - { offset: 0x82151, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setMoengageAppId:]', symObjAddr: 0x178EF, symBinAddr: 0x201D4, symSize: 0xF }
+  - { offset: 0x82191, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig moengageDataCenter]', symObjAddr: 0x178FE, symBinAddr: 0x201E3, symSize: 0x14 }
+  - { offset: 0x821C9, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setMoengageDataCenter:]', symObjAddr: 0x17912, symBinAddr: 0x201F7, symSize: 0xF }
+  - { offset: 0x82209, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig moengageAutoRegister]', symObjAddr: 0x17921, symBinAddr: 0x20206, symSize: 0xE }
+  - { offset: 0x8223F, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setMoengageAutoRegister:]', symObjAddr: 0x1792F, symBinAddr: 0x20214, symSize: 0xC }
+  - { offset: 0x8227D, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig intercomEnabled]', symObjAddr: 0x1793B, symBinAddr: 0x20220, symSize: 0xE }
+  - { offset: 0x822B3, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setIntercomEnabled:]', symObjAddr: 0x17949, symBinAddr: 0x2022E, symSize: 0xC }
+  - { offset: 0x822F1, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig intercomApiKey]', symObjAddr: 0x17955, symBinAddr: 0x2023A, symSize: 0x14 }
+  - { offset: 0x82329, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setIntercomApiKey:]', symObjAddr: 0x17969, symBinAddr: 0x2024E, symSize: 0xF }
+  - { offset: 0x82369, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig intercomAppId]', symObjAddr: 0x17978, symBinAddr: 0x2025D, symSize: 0x14 }
+  - { offset: 0x823A1, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setIntercomAppId:]', symObjAddr: 0x1798C, symBinAddr: 0x20271, symSize: 0xF }
+  - { offset: 0x823E1, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig moxoEnabled]', symObjAddr: 0x1799B, symBinAddr: 0x20280, symSize: 0xE }
+  - { offset: 0x82417, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setMoxoEnabled:]', symObjAddr: 0x179A9, symBinAddr: 0x2028E, symSize: 0xC }
+  - { offset: 0x82455, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig moxoDomain]', symObjAddr: 0x179B5, symBinAddr: 0x2029A, symSize: 0x14 }
+  - { offset: 0x8248D, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setMoxoDomain:]', symObjAddr: 0x179C9, symBinAddr: 0x202AE, symSize: 0xF }
+  - { offset: 0x824CD, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig copyPasteBlockEnabled]', symObjAddr: 0x179D8, symBinAddr: 0x202BD, symSize: 0xE }
+  - { offset: 0x82503, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setCopyPasteBlockEnabled:]', symObjAddr: 0x179E6, symBinAddr: 0x202CB, symSize: 0xC }
+  - { offset: 0x82541, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig appMaskingEnabled]', symObjAddr: 0x179F2, symBinAddr: 0x202D7, symSize: 0xE }
+  - { offset: 0x82577, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setAppMaskingEnabled:]', symObjAddr: 0x17A00, symBinAddr: 0x202E5, symSize: 0xC }
+  - { offset: 0x825B5, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig secureScreenEnabled]', symObjAddr: 0x17A0C, symBinAddr: 0x202F1, symSize: 0xE }
+  - { offset: 0x825EB, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setSecureScreenEnabled:]', symObjAddr: 0x17A1A, symBinAddr: 0x202FF, symSize: 0xC }
+  - { offset: 0x82629, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig forceLandscapeMatch]', symObjAddr: 0x17A26, symBinAddr: 0x2030B, symSize: 0x14 }
+  - { offset: 0x82661, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setForceLandscapeMatch:]', symObjAddr: 0x17A3A, symBinAddr: 0x2031F, symSize: 0xF }
+  - { offset: 0x826A1, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig showShareButton]', symObjAddr: 0x17A49, symBinAddr: 0x2032E, symSize: 0xE }
+  - { offset: 0x826D7, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setShowShareButton:]', symObjAddr: 0x17A57, symBinAddr: 0x2033C, symSize: 0xC }
+  - { offset: 0x82715, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig enableChromecast]', symObjAddr: 0x17A63, symBinAddr: 0x20348, symSize: 0xE }
+  - { offset: 0x8274B, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setEnableChromecast:]', symObjAddr: 0x17A71, symBinAddr: 0x20356, symSize: 0xC }
+  - { offset: 0x82789, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig postLoadJavascript]', symObjAddr: 0x17A7D, symBinAddr: 0x20362, symSize: 0x14 }
+  - { offset: 0x827C1, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setPostLoadJavascript:]', symObjAddr: 0x17A91, symBinAddr: 0x20376, symSize: 0xF }
+  - { offset: 0x82801, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig widgetConfig]', symObjAddr: 0x17AA0, symBinAddr: 0x20385, symSize: 0x14 }
+  - { offset: 0x82839, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setWidgetConfig:]', symObjAddr: 0x17AB4, symBinAddr: 0x20399, symSize: 0xF }
+  - { offset: 0x82879, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig isSimulator]', symObjAddr: 0x17AC3, symBinAddr: 0x203A8, symSize: 0xE }
+  - { offset: 0x828AF, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setIsSimulator:]', symObjAddr: 0x17AD1, symBinAddr: 0x203B6, symSize: 0xC }
+  - { offset: 0x828ED, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig isSimulating]', symObjAddr: 0x17ADD, symBinAddr: 0x203C2, symSize: 0xE }
+  - { offset: 0x82923, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setIsSimulating:]', symObjAddr: 0x17AEB, symBinAddr: 0x203D0, symSize: 0xC }
+  - { offset: 0x82961, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig appIcon]', symObjAddr: 0x17AF7, symBinAddr: 0x203DC, symSize: 0x14 }
+  - { offset: 0x82999, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setAppIcon:]', symObjAddr: 0x17B0B, symBinAddr: 0x203F0, symSize: 0xF }
+  - { offset: 0x829D9, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig sidebarIcon]', symObjAddr: 0x17B1A, symBinAddr: 0x203FF, symSize: 0x14 }
+  - { offset: 0x82A11, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setSidebarIcon:]', symObjAddr: 0x17B2E, symBinAddr: 0x20413, symSize: 0xF }
+  - { offset: 0x82A51, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig navigationTitleIcon]', symObjAddr: 0x17B3D, symBinAddr: 0x20422, symSize: 0x14 }
+  - { offset: 0x82A89, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setNavigationTitleIcon:]', symObjAddr: 0x17B51, symBinAddr: 0x20436, symSize: 0xF }
+  - { offset: 0x82AC9, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig webviewPools]', symObjAddr: 0x17B60, symBinAddr: 0x20445, symSize: 0x14 }
+  - { offset: 0x82B01, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setWebviewPools:]', symObjAddr: 0x17B74, symBinAddr: 0x20459, symSize: 0xF }
+  - { offset: 0x82B41, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig json]', symObjAddr: 0x17B83, symBinAddr: 0x20468, symSize: 0x14 }
+  - { offset: 0x82B78, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setJson:]', symObjAddr: 0x17B97, symBinAddr: 0x2047C, symSize: 0xF }
+  - { offset: 0x82BB7, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig numActiveMenus]', symObjAddr: 0x17BA6, symBinAddr: 0x2048B, symSize: 0xD }
+  - { offset: 0x82BEC, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setNumActiveMenus:]', symObjAddr: 0x17BB3, symBinAddr: 0x20498, symSize: 0xD }
+  - { offset: 0x82C29, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig isLicensed]', symObjAddr: 0x17BC0, symBinAddr: 0x204A5, symSize: 0xE }
+  - { offset: 0x82C5E, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setIsLicensed:]', symObjAddr: 0x17BCE, symBinAddr: 0x204B3, symSize: 0xC }
+  - { offset: 0x82C9B, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig isLicensedForPush]', symObjAddr: 0x17BDA, symBinAddr: 0x204BF, symSize: 0xE }
+  - { offset: 0x82CD0, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setIsLicensedForPush:]', symObjAddr: 0x17BE8, symBinAddr: 0x204CD, symSize: 0xC }
+  - { offset: 0x82D0D, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig isPublished]', symObjAddr: 0x17BF4, symBinAddr: 0x204D9, symSize: 0xE }
+  - { offset: 0x82D42, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setIsPublished:]', symObjAddr: 0x17C02, symBinAddr: 0x204E7, symSize: 0xC }
+  - { offset: 0x82D7F, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig isFirstTimeInitialURLAccess]', symObjAddr: 0x17C0E, symBinAddr: 0x204F3, symSize: 0xE }
+  - { offset: 0x82DB4, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setIsFirstTimeInitialURLAccess:]', symObjAddr: 0x17C1C, symBinAddr: 0x20501, symSize: 0xC }
+  - { offset: 0x82DF1, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig lastLicenseCheck]', symObjAddr: 0x17C28, symBinAddr: 0x2050D, symSize: 0x14 }
+  - { offset: 0x82E28, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setLastLicenseCheck:]', symObjAddr: 0x17C3C, symBinAddr: 0x20521, symSize: 0xF }
+  - { offset: 0x82E67, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig receiptURL]', symObjAddr: 0x17C4B, symBinAddr: 0x20530, symSize: 0x14 }
+  - { offset: 0x82E9E, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setReceiptURL:]', symObjAddr: 0x17C5F, symBinAddr: 0x20544, symSize: 0xF }
+  - { offset: 0x82EDD, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig unlicensedUrl]', symObjAddr: 0x17C6E, symBinAddr: 0x20553, symSize: 0x14 }
+  - { offset: 0x82F14, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setUnlicensedUrl:]', symObjAddr: 0x17C82, symBinAddr: 0x20567, symSize: 0xF }
+  - { offset: 0x82F53, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig redirectsBackup]', symObjAddr: 0x17C91, symBinAddr: 0x20576, symSize: 0x14 }
+  - { offset: 0x82F8A, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setRedirectsBackup:]', symObjAddr: 0x17CA5, symBinAddr: 0x2058A, symSize: 0xF }
+  - { offset: 0x82FC9, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig regexRulesBackup]', symObjAddr: 0x17CB4, symBinAddr: 0x20599, symSize: 0x14 }
+  - { offset: 0x83000, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setRegexRulesBackup:]', symObjAddr: 0x17CC8, symBinAddr: 0x205AD, symSize: 0xF }
+  - { offset: 0x8303F, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig menusBackup]', symObjAddr: 0x17CD7, symBinAddr: 0x205BC, symSize: 0x14 }
+  - { offset: 0x83076, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setMenusBackup:]', symObjAddr: 0x17CEB, symBinAddr: 0x205D0, symSize: 0xF }
+  - { offset: 0x830B5, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig tabMenusBackup]', symObjAddr: 0x17CFA, symBinAddr: 0x205DF, symSize: 0x14 }
+  - { offset: 0x830EC, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setTabMenusBackup:]', symObjAddr: 0x17D0E, symBinAddr: 0x205F3, symSize: 0xF }
+  - { offset: 0x8312B, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig oneSignalEnabledBackup]', symObjAddr: 0x17D1D, symBinAddr: 0x20602, symSize: 0xE }
+  - { offset: 0x83160, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setOneSignalEnabledBackup:]', symObjAddr: 0x17D2B, symBinAddr: 0x20610, symSize: 0xC }
+  - { offset: 0x8319D, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig wkWebView]', symObjAddr: 0x17D37, symBinAddr: 0x2061C, symSize: 0x14 }
+  - { offset: 0x831D4, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig setWkWebView:]', symObjAddr: 0x17D4B, symBinAddr: 0x20630, symSize: 0xF }
+  - { offset: 0x83213, size: 0x8, addend: 0x0, symName: '-[GoNativeAppConfig .cxx_destruct]', symObjAddr: 0x17D5A, symBinAddr: 0x2063F, symSize: 0x8A8 }
+  - { offset: 0x83246, size: 0x8, addend: 0x0, symName: '-[RegexEnabled regex]', symObjAddr: 0x18602, symBinAddr: 0x20EE7, symSize: 0x14 }
+  - { offset: 0x8327D, size: 0x8, addend: 0x0, symName: '-[RegexEnabled setRegex:]', symObjAddr: 0x18616, symBinAddr: 0x20EFB, symSize: 0xF }
+  - { offset: 0x832BC, size: 0x8, addend: 0x0, symName: '-[RegexEnabled enabled]', symObjAddr: 0x18625, symBinAddr: 0x20F0A, symSize: 0xB }
+  - { offset: 0x832F1, size: 0x8, addend: 0x0, symName: '-[RegexEnabled setEnabled:]', symObjAddr: 0x18630, symBinAddr: 0x20F15, symSize: 0x9 }
+  - { offset: 0x8332E, size: 0x8, addend: 0x0, symName: '-[RegexEnabled .cxx_destruct]', symObjAddr: 0x18639, symBinAddr: 0x20F1E, symSize: 0x10 }
+  - { offset: 0x83362, size: 0x8, addend: 0x0, symName: '-[ActionSelection regex]', symObjAddr: 0x18649, symBinAddr: 0x20F2E, symSize: 0x14 }
+  - { offset: 0x83399, size: 0x8, addend: 0x0, symName: '-[ActionSelection setRegex:]', symObjAddr: 0x1865D, symBinAddr: 0x20F42, symSize: 0xF }
+  - { offset: 0x833D8, size: 0x8, addend: 0x0, symName: '-[ActionSelection identifier]', symObjAddr: 0x1866C, symBinAddr: 0x20F51, symSize: 0x14 }
+  - { offset: 0x8340F, size: 0x8, addend: 0x0, symName: '-[ActionSelection setIdentifier:]', symObjAddr: 0x18680, symBinAddr: 0x20F65, symSize: 0xF }
+  - { offset: 0x8344E, size: 0x8, addend: 0x0, symName: '-[ActionSelection .cxx_destruct]', symObjAddr: 0x1868F, symBinAddr: 0x20F74, symSize: 0x28 }
+  - { offset: 0x83C48, size: 0x8, addend: 0x0, symName: '-[NSURL(GNUtilities) URLByAppendingQueryParams:]', symObjAddr: 0x0, symBinAddr: 0x20F9C, symSize: 0x13D }
+  - { offset: 0x83C56, size: 0x8, addend: 0x0, symName: '-[NSURL(GNUtilities) URLByAppendingQueryParams:]', symObjAddr: 0x0, symBinAddr: 0x20F9C, symSize: 0x13D }
+  - { offset: 0x83DA8, size: 0x8, addend: 0x0, symName: '___48-[NSURL(GNUtilities) URLByAppendingQueryParams:]_block_invoke', symObjAddr: 0x13D, symBinAddr: 0x210D9, symSize: 0x5A }
+  - { offset: 0x83F8C, size: 0x8, addend: 0x0, symName: '_$s12GoNativeCore23MedianPermissionHandlerC9getStatus4keysSDyS2SGSaySSGSg_tFZ', symObjAddr: 0x0, symBinAddr: 0x21140, symSize: 0x10 }
+  - { offset: 0x84126, size: 0x8, addend: 0x0, symName: '_$sSo22UNNotificationSettingsCIegg_ABIeyBy_TR', symObjAddr: 0x160, symBinAddr: 0x212A0, symSize: 0x50 }
+  - { offset: 0x8416A, size: 0x8, addend: 0x0, symName: '_$ss17_NativeDictionaryV7_delete2atys10_HashTableV6BucketV_tFSS_SSTg5', symObjAddr: 0x260, symBinAddr: 0x213A0, symSize: 0x1D0 }
+  - { offset: 0x8420D, size: 0x8, addend: 0x0, symName: '_$ss17_NativeDictionaryV4copyyyFSS_SSTg5', symObjAddr: 0x430, symBinAddr: 0x21570, symSize: 0x210 }
+  - { offset: 0x842C6, size: 0x8, addend: 0x0, symName: '_$ss15ContiguousArrayV16_createNewBuffer14bufferIsUnique15minimumCapacity13growForAppendySb_SiSbtFSS_Tg5', symObjAddr: 0x640, symBinAddr: 0x21780, symSize: 0x20 }
+  - { offset: 0x8432B, size: 0x8, addend: 0x0, symName: '_$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSS_Tg5', symObjAddr: 0x660, symBinAddr: 0x217A0, symSize: 0x120 }
+  - { offset: 0x84631, size: 0x8, addend: 0x0, symName: '_$s12GoNativeCore23MedianPermissionHandlerCMa', symObjAddr: 0x12F0, symBinAddr: 0x22430, symSize: 0x20 }
+  - { offset: 0x84645, size: 0x8, addend: 0x0, symName: ___swift_instantiateConcreteTypeFromMangledName, symObjAddr: 0x1310, symBinAddr: 0x22450, symSize: 0x40 }
+  - { offset: 0x84659, size: 0x8, addend: 0x0, symName: '_$s12GoNativeCore23MedianPermissionHandlerC012notificationE0SSyFZySo22UNNotificationSettingsCcfU_TA', symObjAddr: 0x13A0, symBinAddr: 0x224E0, symSize: 0x20 }
+  - { offset: 0x8466D, size: 0x8, addend: 0x0, symName: _block_copy_helper, symObjAddr: 0x13C0, symBinAddr: 0x22500, symSize: 0x20 }
+  - { offset: 0x84681, size: 0x8, addend: 0x0, symName: _block_destroy_helper, symObjAddr: 0x13E0, symBinAddr: 0x22520, symSize: 0x10 }
+  - { offset: 0x84695, size: 0x8, addend: 0x0, symName: '_$sSD8IteratorV8_VariantOyS2S__GWOe', symObjAddr: 0x13F0, symBinAddr: 0x22530, symSize: 0x17 }
+  - { offset: 0x84705, size: 0x8, addend: 0x0, symName: '_$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCSS_SSTt0g5Tf4g_n', symObjAddr: 0x780, symBinAddr: 0x218C0, symSize: 0xF0 }
+  - { offset: 0x84875, size: 0x8, addend: 0x0, symName: '_$sSTsE6filterySay7ElementQzGSbACKXEKFSD4KeysVyS2S_G_Tg585$s12GoNativeCore23MedianPermissionHandlerC9getStatus4keysSDyS2SGSaySSGSg_tFZSbSSXEfU_SaySSGTf1cn_nTf4ng_n', symObjAddr: 0x870, symBinAddr: 0x219B0, symSize: 0x370 }
+  - { offset: 0x84C6C, size: 0x8, addend: 0x0, symName: '_$s12GoNativeCore23MedianPermissionHandlerC9getStatus4keysSDyS2SGSaySSGSg_tFZ', symObjAddr: 0x0, symBinAddr: 0x21140, symSize: 0x10 }
+  - { offset: 0x84CCC, size: 0x8, addend: 0x0, symName: '_$s12GoNativeCore23MedianPermissionHandlerC9getStatus4keysSDyS2SGSaySSGSg_tFZTo', symObjAddr: 0x10, symBinAddr: 0x21150, symSize: 0x70 }
+  - { offset: 0x84D40, size: 0x8, addend: 0x0, symName: '_$s12GoNativeCore23MedianPermissionHandlerC012notificationE0SSyFZySo22UNNotificationSettingsCcfU_', symObjAddr: 0x80, symBinAddr: 0x211C0, symSize: 0xE0 }
+  - { offset: 0x84DD9, size: 0x8, addend: 0x0, symName: '_$s12GoNativeCore23MedianPermissionHandlerCACycfC', symObjAddr: 0x1B0, symBinAddr: 0x212F0, symSize: 0x20 }
+  - { offset: 0x84DED, size: 0x8, addend: 0x0, symName: '_$s12GoNativeCore23MedianPermissionHandlerCACycfc', symObjAddr: 0x1D0, symBinAddr: 0x21310, symSize: 0x30 }
+  - { offset: 0x84E25, size: 0x8, addend: 0x0, symName: '_$s12GoNativeCore23MedianPermissionHandlerCACycfcTo', symObjAddr: 0x200, symBinAddr: 0x21340, symSize: 0x30 }
+  - { offset: 0x84E5A, size: 0x8, addend: 0x0, symName: '_$s12GoNativeCore23MedianPermissionHandlerCfD', symObjAddr: 0x230, symBinAddr: 0x21370, symSize: 0x30 }
+  - { offset: 0x8506A, size: 0x8, addend: 0x0, symName: '_$s12GoNativeCore23MedianPermissionHandlerC9getStatus4keysSDyS2SGSaySSGSg_tFZTf4nd_n', symObjAddr: 0xBE0, symBinAddr: 0x21D20, symSize: 0x710 }
+  - { offset: 0x856F0, size: 0x8, addend: 0x0, symName: '_$s12GoNativeCore19MedianWidgetManagerC6sharedACvpZ', symObjAddr: 0x2B48, symBinAddr: 0x444C8, symSize: 0x0 }
+  - { offset: 0x8597F, size: 0x8, addend: 0x0, symName: '_$s12GoNativeCore19MedianWidgetManagerC6shared_WZ', symObjAddr: 0x0, symBinAddr: 0x22550, symSize: 0x30 }
+  - { offset: 0x859E1, size: 0x8, addend: 0x0, symName: '_$sIeg_IeyB_TR', symObjAddr: 0x730, symBinAddr: 0x22C80, symSize: 0x30 }
+  - { offset: 0x85A04, size: 0x8, addend: 0x0, symName: '_$sSbIegy_SbIeyBy_TR', symObjAddr: 0x1250, symBinAddr: 0x237A0, symSize: 0x40 }
+  - { offset: 0x85A1C, size: 0x8, addend: 0x0, symName: '_$s12GoNativeCore19MedianWidgetManagerCfETo', symObjAddr: 0x1D90, symBinAddr: 0x242E0, symSize: 0x50 }
+  - { offset: 0x85A56, size: 0x8, addend: 0x0, symName: '_$ss29getContiguousArrayStorageType3fors01_bcD0CyxGmxm_tlFSo18NSLayoutConstraintC_Ttg5', symObjAddr: 0x1DE0, symBinAddr: 0x24330, symSize: 0x60 }
+  - { offset: 0x85A8E, size: 0x8, addend: 0x0, symName: '_$ss22__RawDictionaryStorageC4findys10_HashTableV6BucketV6bucket_Sb5foundtxSHRzlFSS_Tg5', symObjAddr: 0x1E40, symBinAddr: 0x24390, symSize: 0x60 }
+  - { offset: 0x85AC6, size: 0x8, addend: 0x0, symName: '_$ss22__RawDictionaryStorageC4findys10_HashTableV6BucketV6bucket_Sb5foundtxSHRzlFs11AnyHashableV_Tg5', symObjAddr: 0x1EA0, symBinAddr: 0x243F0, symSize: 0x30 }
+  - { offset: 0x85AF3, size: 0x8, addend: 0x0, symName: '_$ss11AnyHashableVWOh', symObjAddr: 0x1ED0, symBinAddr: 0x24420, symSize: 0x30 }
+  - { offset: 0x85B07, size: 0x8, addend: 0x0, symName: _block_copy_helper, symObjAddr: 0x1F90, symBinAddr: 0x244A0, symSize: 0x20 }
+  - { offset: 0x85B1B, size: 0x8, addend: 0x0, symName: _block_destroy_helper, symObjAddr: 0x1FB0, symBinAddr: 0x244C0, symSize: 0x10 }
+  - { offset: 0x85B2F, size: 0x8, addend: 0x0, symName: '_$s8Dispatch0A13WorkItemFlagsVACs10SetAlgebraAAWl', symObjAddr: 0x1FC0, symBinAddr: 0x244D0, symSize: 0x40 }
+  - { offset: 0x85B43, size: 0x8, addend: 0x0, symName: '_$sSay8Dispatch0A13WorkItemFlagsVGSayxGSTsWl', symObjAddr: 0x2000, symBinAddr: 0x24510, symSize: 0x40 }
+  - { offset: 0x85B57, size: 0x8, addend: 0x0, symName: ___swift_instantiateConcreteTypeFromMangledNameAbstract, symObjAddr: 0x2040, symBinAddr: 0x24550, symSize: 0x40 }
+  - { offset: 0x85B6B, size: 0x8, addend: 0x0, symName: '_$sypWOc', symObjAddr: 0x2080, symBinAddr: 0x24590, symSize: 0x30 }
+  - { offset: 0x85B7F, size: 0x8, addend: 0x0, symName: '_$s12GoNativeCore19MedianWidgetManagerCMa', symObjAddr: 0x20E0, symBinAddr: 0x245F0, symSize: 0x20 }
+  - { offset: 0x85B93, size: 0x8, addend: 0x0, symName: '_$s12GoNativeCore19MedianWidgetManagerC05closeE0yyFySbcfU0_TA', symObjAddr: 0x2160, symBinAddr: 0x24670, symSize: 0x20 }
+  - { offset: 0x85BA7, size: 0x8, addend: 0x0, symName: '_$s12GoNativeCore19MedianWidgetManagerC05closeE0yyFyycfU1_TA', symObjAddr: 0x21B0, symBinAddr: 0x246C0, symSize: 0x20 }
+  - { offset: 0x85BD9, size: 0x8, addend: 0x0, symName: '_$s12GoNativeCore19MedianWidgetManagerC15handleAutoCloseyyFyyScMYccfU_TA', symObjAddr: 0x21D0, symBinAddr: 0x246E0, symSize: 0x20 }
+  - { offset: 0x85C2C, size: 0x8, addend: 0x0, symName: '_$ss22__RawDictionaryStorageC4find_9hashValues10_HashTableV6BucketV6bucket_Sb5foundtx_SitSHRzlFSS_Tg5', symObjAddr: 0x21F0, symBinAddr: 0x24700, symSize: 0xF0 }
+  - { offset: 0x85CAF, size: 0x8, addend: 0x0, symName: '_$ss22__RawDictionaryStorageC4find_9hashValues10_HashTableV6BucketV6bucket_Sb5foundtx_SitSHRzlFs11AnyHashableV_Tg5', symObjAddr: 0x22E0, symBinAddr: 0x247F0, symSize: 0xC0 }
+  - { offset: 0x85CDC, size: 0x8, addend: 0x0, symName: '_$s12GoNativeCore19MedianWidgetManagerC04showE0yySo6UIViewCFyycfU_TA', symObjAddr: 0x2810, symBinAddr: 0x24D20, symSize: 0x20 }
+  - { offset: 0x85D0E, size: 0x8, addend: 0x0, symName: '_$s12GoNativeCore19MedianWidgetManagerC04showE0yySo6UIViewCFyycfU0_TA', symObjAddr: 0x2830, symBinAddr: 0x24D40, symSize: 0x20 }
+  - { offset: 0x85D40, size: 0x8, addend: 0x0, symName: '_$s10Foundation3URLVSgWOb', symObjAddr: 0x2850, symBinAddr: 0x24D60, symSize: 0x40 }
+  - { offset: 0x85D54, size: 0x8, addend: 0x0, symName: '_$s10Foundation3URLVSgWOc', symObjAddr: 0x28C0, symBinAddr: 0x24DD0, symSize: 0x40 }
+  - { offset: 0x85D68, size: 0x8, addend: 0x0, symName: '_$ss11AnyHashableVWOc', symObjAddr: 0x2900, symBinAddr: 0x24E10, symSize: 0x30 }
+  - { offset: 0x85D95, size: 0x8, addend: 0x0, symName: '_$s12GoNativeCore19MedianWidgetManagerCACycfC', symObjAddr: 0x30, symBinAddr: 0x22580, symSize: 0x20 }
+  - { offset: 0x85DBF, size: 0x8, addend: 0x0, symName: '_$s12GoNativeCore19MedianWidgetManagerC6sharedACvgZ', symObjAddr: 0x50, symBinAddr: 0x225A0, symSize: 0x40 }
+  - { offset: 0x85E05, size: 0x8, addend: 0x0, symName: '_$s12GoNativeCore19MedianWidgetManagerC6sharedACvgZTo', symObjAddr: 0x90, symBinAddr: 0x225E0, symSize: 0x40 }
+  - { offset: 0x85E1D, size: 0x8, addend: 0x0, symName: '_$s12GoNativeCore19MedianWidgetManagerC6sharedACvgZTo', symObjAddr: 0x90, symBinAddr: 0x225E0, symSize: 0x40 }
+  - { offset: 0x86163, size: 0x8, addend: 0x0, symName: '_$s12GoNativeCore19MedianWidgetManagerC04showE0yySo6UIViewCF', symObjAddr: 0xD0, symBinAddr: 0x22620, symSize: 0x660 }
+  - { offset: 0x8645A, size: 0x8, addend: 0x0, symName: '_$s12GoNativeCore19MedianWidgetManagerC15handleAutoCloseyyF', symObjAddr: 0x760, symBinAddr: 0x22CB0, symSize: 0x480 }
+  - { offset: 0x865D1, size: 0x8, addend: 0x0, symName: '_$s12GoNativeCore19MedianWidgetManagerC05closeE0yyF', symObjAddr: 0xBE0, symBinAddr: 0x23130, symSize: 0x600 }
+  - { offset: 0x867BF, size: 0x8, addend: 0x0, symName: '_$s12GoNativeCore19MedianWidgetManagerC05closeE0yyFySbcfU0_', symObjAddr: 0x11E0, symBinAddr: 0x23730, symSize: 0x70 }
+  - { offset: 0x86894, size: 0x8, addend: 0x0, symName: '_$s12GoNativeCore19MedianWidgetManagerC05closeE0yyFTo', symObjAddr: 0x1290, symBinAddr: 0x237E0, symSize: 0x30 }
+  - { offset: 0x868E1, size: 0x8, addend: 0x0, symName: '_$s12GoNativeCore19MedianWidgetManagerC020shouldDisplayAppOpenE0yySo6UIViewCF', symObjAddr: 0x12C0, symBinAddr: 0x23810, symSize: 0x5D0 }
+  - { offset: 0x86B0A, size: 0x8, addend: 0x0, symName: '_$s12GoNativeCore19MedianWidgetManagerC020shouldDisplayAppOpenE0yySo6UIViewCFTo', symObjAddr: 0x1890, symBinAddr: 0x23DE0, symSize: 0x50 }
+  - { offset: 0x86B32, size: 0x8, addend: 0x0, symName: '_$s12GoNativeCore19MedianWidgetManagerC021shouldDisplayJsBridgeE0yySo6UIViewCF', symObjAddr: 0x18E0, symBinAddr: 0x23E30, symSize: 0x330 }
+  - { offset: 0x86C3C, size: 0x8, addend: 0x0, symName: '_$s12GoNativeCore19MedianWidgetManagerC021shouldDisplayJsBridgeE0yySo6UIViewCFTo', symObjAddr: 0x1C10, symBinAddr: 0x24160, symSize: 0x50 }
+  - { offset: 0x86C50, size: 0x8, addend: 0x0, symName: '_$s12GoNativeCore19MedianWidgetManagerCACycfc', symObjAddr: 0x1C60, symBinAddr: 0x241B0, symSize: 0x80 }
+  - { offset: 0x86C83, size: 0x8, addend: 0x0, symName: '_$s12GoNativeCore19MedianWidgetManagerCACycfcTo', symObjAddr: 0x1CE0, symBinAddr: 0x24230, symSize: 0x80 }
+  - { offset: 0x86CB8, size: 0x8, addend: 0x0, symName: '_$s12GoNativeCore19MedianWidgetManagerCfD', symObjAddr: 0x1D60, symBinAddr: 0x242B0, symSize: 0x30 }
+  - { offset: 0x86D9D, size: 0x8, addend: 0x0, symName: '_$s12GoNativeCore19MedianWidgetManagerC6bundleSo8NSBundleCSgvgTf4d_n', symObjAddr: 0x23A0, symBinAddr: 0x248B0, symSize: 0x440 }
+...
