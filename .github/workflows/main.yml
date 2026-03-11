@@ -21,15 +21,11 @@ jobs:
       with:
         node-version: '20'
 
-    - name: Install NPM packages (if applicable)
+    - name: Force HTTPS in Podfile
       run: |
-        if [ -f "package.json" ]; then npm install; fi
-        if [ -f "ios/package.json" ]; then cd ios && npm install; fi
-
-    - name: Fix Git Clone URLs for Pods
-      run: |
-        # This forces the Mac to use public HTTPS links instead of private SSH keys
-        git config --global url."https://github.com/".insteadOf "git@github.com:"
+        cd ios
+        # This command forcefully searches the Podfile and overwrites the private SSH link with a public HTTPS link
+        sed -i '' 's/git@github.com:/https:\/\/github.com\//g' Podfile
 
     - name: Install iOS Pods (Dependencies)
       run: |
