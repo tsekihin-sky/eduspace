@@ -16,6 +16,17 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v4
 
+    - name: Setup Ruby & CocoaPods
+      uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: '3.2'
+        bundler-cache: true
+
+    - name: Install CocoaPods
+      run: |
+        cd ios
+        pod install --repo-update
+      
     - name: Build the iOS app (Unsigned)
       run: |
         xcodebuild clean build \
@@ -27,7 +38,10 @@ jobs:
           SYMROOT="${{ github.workspace }}/build" \
           CODE_SIGN_IDENTITY="" \
           CODE_SIGNING_REQUIRED=NO \
-          CODE_SIGNING_ALLOWED=NO
+          CODE_SIGNING_ALLOWED=NO \
+          ONLY_ACTIVE_ARCH=NO \
+          SWIFT_OPTIMIZATION_LEVEL="-Onone" \
+          | xcpretty && exit ${PIPESTATUS[0]}
 
     - name: Package the .ipa file
       run: |
