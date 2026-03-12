@@ -5,8 +5,8 @@ env:
 
 on:
   push:
-    branches: [ "main" ] 
-  workflow_dispatch: 
+    branches: [ "main" ]
+  workflow_dispatch:
 
 jobs:
   build:
@@ -18,25 +18,25 @@ jobs:
 
     - name: Build the iOS app (Unsigned)
       run: |
-        cd ios
-        # We skip pod install because GoNative pre-packages them!
         xcodebuild clean build \
-          -workspace "EdUSpace.xcworkspace" \
+          -workspace "ios/EdUSpace.xcworkspace" \
           -scheme "EdUSpace" \
           -sdk iphoneos \
+          -destination "generic/platform=iOS" \
           -configuration Release \
+          SYMROOT="${{ github.workspace }}/build" \
           CODE_SIGN_IDENTITY="" \
           CODE_SIGNING_REQUIRED=NO \
           CODE_SIGNING_ALLOWED=NO
-          
+
     - name: Package the .ipa file
       run: |
-        APP_PATH=$(find ~/Library/Developer/Xcode/DerivedData -name "*.app" | head -n 1)
-        echo "Found app at $APP_PATH"
-        
+        APP_PATH=$(find "${{ github.workspace }}/build" -name "*.app" -not -path "*/PlugIns/*" | head -n 1)
+        echo "Found app at: $APP_PATH"
+
         mkdir Payload
         cp -r "$APP_PATH" Payload/
-        zip -qr app.ipa Payload
+        zip -qr app.ipa Payload/
 
     - name: Upload .ipa so you can download it
       uses: actions/upload-artifact@v4
